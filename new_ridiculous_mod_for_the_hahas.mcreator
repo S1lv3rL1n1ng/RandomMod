@@ -400,6 +400,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "IceCreamConeToIceCreamScoop",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_cone_to_ice_cream_scoop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/ice_cream_cone_to_ice_cream_scoop.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
