@@ -38,6 +38,7 @@ public class NewRidiculousModForTheHahasModTabs {
 				tabData.accept(NewRidiculousModForTheHahasModItems.GOLD_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.PULSATING_HEART.get());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModItems.DEMISE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

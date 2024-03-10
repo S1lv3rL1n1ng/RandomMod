@@ -26,6 +26,7 @@ import net.mcreator.newridiculousmodforthehahas.item.GlueItem;
 import net.mcreator.newridiculousmodforthehahas.item.GIANTSTICKItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondDimensionItem;
+import net.mcreator.newridiculousmodforthehahas.item.DemiseItem;
 import net.mcreator.newridiculousmodforthehahas.item.ConeItem;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
@@ -50,6 +51,7 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> GOLD_SCYTHE = REGISTRY.register("gold_scythe", () -> new GoldScytheItem());
 	public static final RegistryObject<Item> PULSATING_HEART = REGISTRY.register("pulsating_heart", () -> new PulsatingHeartItem());
 	public static final RegistryObject<Item> FLESH_BLOCK = block(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK);
+	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

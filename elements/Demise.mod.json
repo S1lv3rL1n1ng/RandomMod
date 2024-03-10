@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pixil-frame-0_-_2024-03-09t222358.248",
+    "texture": "pixil-frame-0_-_2024-03-09t220023.720",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Netherite Scythe",
+    "name": "Demise",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,19 +17,15 @@
     },
     "harvestLevel": 0,
     "efficiency": 0.0,
-    "attackSpeed": 0.7,
+    "attackSpeed": 1.0,
     "enchantability": 2,
-    "damageVsEntity": 10.0,
-    "usageCount": 2031,
+    "damageVsEntity": 12.0,
+    "usageCount": 4062,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "Items.NETHERITE_SCRAP"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
