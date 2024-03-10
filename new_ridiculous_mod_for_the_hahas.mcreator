@@ -251,6 +251,20 @@
       }
     },
     {
+      "name": "Demise",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demise",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DemiseItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/demise.json"
+        ]
+      }
+    },
+    {
       "name": "RandomGoodies",
       "type": "tab",
       "sortid": 19,
@@ -259,6 +273,86 @@
       "registry_name": "random_goodies",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "DiamondScytheRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/diamond_scythe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldScytheRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/gold_scythe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PulsatingHeart",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsating_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pulsating_heart.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PulsatingHeartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteScytheRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/netherite_scythe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DemiseScytheRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demise_scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/demise_scythe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldScythe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GoldScytheItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/gold_scythe.json"
+        ]
       }
     },
     {
@@ -272,6 +366,32 @@
         "files": [
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/wooden_scythe.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/WoodenScytheItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenScytheRecipes",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_scythe_recipes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/wooden_scythe_recipes.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneScytheRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_scythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/stone_scythe_recipe.json"
         ]
       }
     },
@@ -304,16 +424,18 @@
       }
     },
     {
-      "name": "DiamondScythe",
-      "type": "tool",
-      "sortid": 23,
+      "name": "FleshBlock",
+      "type": "block",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "diamond_scythe",
+      "registry_name": "flesh_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_scythe.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondScytheItem.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/FleshBlockBlock.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/flesh_block.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/flesh_block.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/flesh_block.json"
         ]
       }
     },
@@ -332,76 +454,6 @@
       }
     },
     {
-      "name": "GoldScythe",
-      "type": "tool",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gold_scythe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GoldScytheItem.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/gold_scythe.json"
-        ]
-      }
-    },
-    {
-      "name": "PulsatingHeart",
-      "type": "item",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pulsating_heart",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pulsating_heart.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PulsatingHeartItem.java"
-        ]
-      }
-    },
-    {
-      "name": "FleshBlock",
-      "type": "block",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flesh_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/FleshBlockBlock.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/flesh_block.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/flesh_block.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/flesh_block.json"
-        ]
-      }
-    },
-    {
-      "name": "WoodenScytheRecipes",
-      "type": "recipe",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wooden_scythe_recipes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/wooden_scythe_recipes.json"
-        ]
-      }
-    },
-    {
-      "name": "StoneScytheRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_scythe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/stone_scythe_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "IronScytheRecipe",
       "type": "recipe",
       "sortid": 30,
@@ -415,68 +467,155 @@
       }
     },
     {
-      "name": "DiamondScytheRecipe",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diamond_scythe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/diamond_scythe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "NetheriteScytheRecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netherite_scythe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/netherite_scythe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "GoldScytheRecipe",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gold_scythe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/gold_scythe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Demise",
+      "name": "DiamondScythe",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demise",
+      "registry_name": "diamond_scythe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DemiseItem.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/demise.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_scythe.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondScytheItem.java"
         ]
       }
     },
     {
-      "name": "DemiseScytheRecipe",
-      "type": "recipe",
-      "sortid": 35,
+      "name": "IceCreamScoopOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demise_scythe_recipe",
+      "registry_name": "ice_cream_scoop_on_bone_meal_success",
       "metadata": {
         "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/demise_scythe_recipe.json"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceCreamConeToIceCreamScoop",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_cone_to_ice_cream_scoop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/ice_cream_cone_to_ice_cream_scoop.json"
+        ]
+      }
+    },
+    {
+      "name": "YouScreamWeScream",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_scream_we_scream",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/advancements/you_scream_we_scream.json"
+        ]
+      }
+    },
+    {
+      "name": "IceCreamScoop",
+      "type": "plant",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_scoop.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamScoopBlock.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_scoop.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_scoop.json"
+        ]
+      }
+    },
+    {
+      "name": "IceCreamScoopBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceCreamScoopUpdateTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -485,27 +624,19 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.new_ridiculous_mod_for_the_hahas.netherite_scythe": "Netherite Scythe",
-      "item.new_ridiculous_mod_for_the_hahas.gold_scythe": "Gold Scythe",
       "item.new_ridiculous_mod_for_the_hahas.pet_rock": "Pet Rock",
       "biome.new_ridiculous_mod_for_the_hahas.diamond_place": "Diamond Place",
-      "item.new_ridiculous_mod_for_the_hahas.cone": "Cone",
       "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
-      "item.new_ridiculous_mod_for_the_hahas.stone_scythe": "Stone Scythe",
-      "block.new_ridiculous_mod_for_the_hahas.flesh_block": "Flesh Block",
-      "item.new_ridiculous_mod_for_the_hahas.googly_eyes_helmet": "Googly Eyes Helmet",
-      "item.new_ridiculous_mod_for_the_hahas.diamond_scythe": "Diamond Scythe",
       "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
+      "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
+      "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone Plant",
+      "biome.new_ridiculous_mod_for_the_hahas.diamond_netherite_land": "Diamond Netherite Land",
+      "item.new_ridiculous_mod_for_the_hahas.cone": "Cone",
+      "item.new_ridiculous_mod_for_the_hahas.googly_eyes_helmet": "Googly Eyes Helmet",
       "item.new_ridiculous_mod_for_the_hahas.m_4": "M4",
       "item.new_ridiculous_mod_for_the_hahas.demise": "Demise",
-      "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "item.new_ridiculous_mod_for_the_hahas.diamond_dimension": "Rock",
       "block.new_ridiculous_mod_for_the_hahas.glue_plant": "Glue Plant",
-      "item.new_ridiculous_mod_for_the_hahas.pulsating_heart": "Pulsating Heart",
-      "item.new_ridiculous_mod_for_the_hahas.iron_scythe": "Iron Scythe",
-      "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone Plant",
-      "item.new_ridiculous_mod_for_the_hahas.wooden_scythe": "Wooden Scythe",
-      "biome.new_ridiculous_mod_for_the_hahas.diamond_netherite_land": "Diamond Netherite Land",
       "item.new_ridiculous_mod_for_the_hahas.glue": "Glue"
     }
   },

@@ -42,15 +42,16 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> ICE_CREAM_CONE_PLANT = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT);
 	public static final RegistryObject<Item> GLUE = REGISTRY.register("glue", () -> new GlueItem());
 	public static final RegistryObject<Item> M_4 = REGISTRY.register("m_4", () -> new M4Item());
+	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 	public static final RegistryObject<Item> WOODEN_SCYTHE = REGISTRY.register("wooden_scythe", () -> new WoodenScytheItem());
 	public static final RegistryObject<Item> STONE_SCYTHE = REGISTRY.register("stone_scythe", () -> new StoneScytheItem());
+	public static final RegistryObject<Item> ICE_CREAM_SCOOP = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_SCOOP);
 	public static final RegistryObject<Item> IRON_SCYTHE = REGISTRY.register("iron_scythe", () -> new IronScytheItem());
 	public static final RegistryObject<Item> DIAMOND_SCYTHE = REGISTRY.register("diamond_scythe", () -> new DiamondScytheItem());
 	public static final RegistryObject<Item> NETHERITE_SCYTHE = REGISTRY.register("netherite_scythe", () -> new NetheriteScytheItem());
 	public static final RegistryObject<Item> GOLD_SCYTHE = REGISTRY.register("gold_scythe", () -> new GoldScytheItem());
 	public static final RegistryObject<Item> PULSATING_HEART = REGISTRY.register("pulsating_heart", () -> new PulsatingHeartItem());
 	public static final RegistryObject<Item> FLESH_BLOCK = block(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK);
-	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

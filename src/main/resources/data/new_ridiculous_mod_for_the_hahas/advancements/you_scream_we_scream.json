@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "new_ridiculous_mod_for_the_hahas:ice_cream_cone"
+    },
+    "title": {
+      "translate": "advancements.you_scream_we_scream.title"
+    },
+    "description": {
+      "translate": "advancements.you_scream_we_scream.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "you_scream_we_scream": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "new_ridiculous_mod_for_the_hahas:ice_cream_cone"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

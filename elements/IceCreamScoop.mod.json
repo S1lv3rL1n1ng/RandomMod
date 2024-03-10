@@ -3,10 +3,10 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "glue",
+    "texture": "icecreamscoopblock.png",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "gluealso",
+    "itemTexture": "icecreamscoop",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -14,7 +14,7 @@
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 3,
+    "growapableMaxHeight": 1,
     "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
@@ -28,7 +28,7 @@
         "subtract": false
       }
     ],
-    "name": "Glue bottle",
+    "name": "Ice Cream Scoop",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,7 +42,7 @@
     "isSolid": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SHROOMLIGHT"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -61,10 +61,10 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:Glue"
+      "value": ""
     },
     "dropAmount": 1,
-    "forceTicking": false,
+    "forceTicking": true,
     "emissiveRendering": false,
     "hasTileEntity": false,
     "isReplaceable": false,
@@ -79,16 +79,18 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "isBonemealable": false,
-    "frequencyOnChunks": 10,
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
-    ],
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "IceCreamScoopOnBoneMealSuccess"
+    },
+    "frequencyOnChunks": 0,
+    "generateFeature": false,
+    "restrictionBiomes": [],
     "generationType": "Flower",
-    "patchSize": 4,
-    "generateAtAnyHeight": false
+    "patchSize": 1,
+    "generateAtAnyHeight": false,
+    "onTickUpdate": {
+      "name": "IceCreamScoopUpdateTick"
+    }
   }
 }

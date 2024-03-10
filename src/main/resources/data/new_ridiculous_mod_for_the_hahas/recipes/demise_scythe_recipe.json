@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "template": [],
   "base": {
-    "item": "new_ridiculous_mod_for_the_hahas:netherite_scythe"
+    "item": "new_ridiculous_mod_for_the_hahas:deleted_mod_element"
   },
   "addition": {
     "item": "new_ridiculous_mod_for_the_hahas:pulsating_heart"
