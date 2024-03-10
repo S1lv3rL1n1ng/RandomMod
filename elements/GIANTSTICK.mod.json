@@ -13,7 +13,7 @@
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:RandomGoodies"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
@@ -22,6 +22,9 @@
     "damageVsEntity": 10.0,
     "usageCount": 0,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Blocks.LOG#0"

@@ -3,18 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "conenew",
+    "texture": "pixil-frame-0_-_2024-03-09t220023.720",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Cone",
+    "name": "Demise",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:RandomGoodies"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -40,14 +40,14 @@
     "projectile": {
       "value": "CUSTOM:M4Projectile"
     },
-    "isFood": true,
-    "nutritionalValue": 1000,
-    "saturation": 40.0,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "eat"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }

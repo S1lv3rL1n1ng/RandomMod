@@ -10,7 +10,7 @@
     "name": "Glue",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:RandomGoodies"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -29,11 +29,17 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:M4Projectile"
+    },
     "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.3,
