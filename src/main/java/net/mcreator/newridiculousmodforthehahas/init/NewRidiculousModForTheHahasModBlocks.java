@@ -14,6 +14,7 @@ import net.mcreator.newridiculousmodforthehahas.block.IceCreamScoopBlock;
 import net.mcreator.newridiculousmodforthehahas.block.IceCreamConePlantBlock;
 import net.mcreator.newridiculousmodforthehahas.block.GluePlantBlock;
 import net.mcreator.newridiculousmodforthehahas.block.FleshBlockBlock;
+import net.mcreator.newridiculousmodforthehahas.block.EnchantmentArchitectBlock;
 import net.mcreator.newridiculousmodforthehahas.block.DiamondDimensionPortalBlock;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
@@ -24,4 +25,5 @@ public class NewRidiculousModForTheHahasModBlocks {
 	public static final RegistryObject<Block> ICE_CREAM_CONE_PLANT = REGISTRY.register("ice_cream_cone_plant", () -> new IceCreamConePlantBlock());
 	public static final RegistryObject<Block> ICE_CREAM_SCOOP = REGISTRY.register("ice_cream_scoop", () -> new IceCreamScoopBlock());
 	public static final RegistryObject<Block> FLESH_BLOCK = REGISTRY.register("flesh_block", () -> new FleshBlockBlock());
+	public static final RegistryObject<Block> ENCHANTMENT_ARCHITECT = REGISTRY.register("enchantment_architect", () -> new EnchantmentArchitectBlock());
 }

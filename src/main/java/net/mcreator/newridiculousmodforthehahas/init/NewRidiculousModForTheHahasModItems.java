@@ -52,6 +52,7 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> PULSATING_HEART = REGISTRY.register("pulsating_heart", () -> new PulsatingHeartItem());
 	public static final RegistryObject<Item> FLESH_BLOCK = block(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK);
 	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
+	public static final RegistryObject<Item> ENCHANTMENT_ARCHITECT = block(NewRidiculousModForTheHahasModBlocks.ENCHANTMENT_ARCHITECT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

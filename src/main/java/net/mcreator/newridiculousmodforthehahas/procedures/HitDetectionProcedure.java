@@ -34,7 +34,8 @@ public class HitDetectionProcedure {
 			return;
 		if (EnchantmentHelper.getItemEnchantmentLevel(NewRidiculousModForTheHahasModEnchantments.WITHERING_EDGE.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 0,
+				_entity.addEffect(new MobEffectInstance(MobEffects.WITHER,
+						(int) (40 * (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(NewRidiculousModForTheHahasModEnchantments.WITHERING_EDGE.get()) * 0.75),
 						(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(NewRidiculousModForTheHahasModEnchantments.WITHERING_EDGE.get()), false, false));
 		}
 	}
