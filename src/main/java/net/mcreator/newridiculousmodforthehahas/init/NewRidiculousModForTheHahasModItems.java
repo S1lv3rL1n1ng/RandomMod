@@ -19,6 +19,7 @@ import net.mcreator.newridiculousmodforthehahas.item.GooglyEyesItem;
 import net.mcreator.newridiculousmodforthehahas.item.GlueItem;
 import net.mcreator.newridiculousmodforthehahas.item.GIANTSTICKItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondDimensionItem;
+import net.mcreator.newridiculousmodforthehahas.item.DemiseItem;
 import net.mcreator.newridiculousmodforthehahas.item.ConeItem;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
@@ -34,6 +35,7 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> ICE_CREAM_CONE_PLANT = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT);
 	public static final RegistryObject<Item> GLUE = REGISTRY.register("glue", () -> new GlueItem());
 	public static final RegistryObject<Item> M_4 = REGISTRY.register("m_4", () -> new M4Item());
+	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
