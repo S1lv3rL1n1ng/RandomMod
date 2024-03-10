@@ -41,7 +41,6 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> ICE_CREAM_CONE_PLANT = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT);
 	public static final RegistryObject<Item> GLUE = REGISTRY.register("glue", () -> new GlueItem());
 	public static final RegistryObject<Item> M_4 = REGISTRY.register("m_4", () -> new M4Item());
-	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 	public static final RegistryObject<Item> WOODEN_SCYTHE = REGISTRY.register("wooden_scythe", () -> new WoodenScytheItem());
 	public static final RegistryObject<Item> STONE_SCYTHE = REGISTRY.register("stone_scythe", () -> new StoneScytheItem());
 	public static final RegistryObject<Item> ICE_CREAM_SCOOP = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_SCOOP);

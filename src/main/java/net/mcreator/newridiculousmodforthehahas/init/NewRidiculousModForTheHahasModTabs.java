@@ -30,7 +30,6 @@ public class NewRidiculousModForTheHahasModTabs {
 				tabData.accept(NewRidiculousModForTheHahasModItems.ICE_CREAM_CONE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.GLUE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.M_4.get());
-				tabData.accept(NewRidiculousModForTheHahasModItems.DEMISE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.WOODEN_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.STONE_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.IRON_SCYTHE.get());
