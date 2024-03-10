@@ -36,6 +36,7 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> GLUE = REGISTRY.register("glue", () -> new GlueItem());
 	public static final RegistryObject<Item> M_4 = REGISTRY.register("m_4", () -> new M4Item());
 	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
+	public static final RegistryObject<Item> ICE_CREAM_SCOOP = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_SCOOP);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

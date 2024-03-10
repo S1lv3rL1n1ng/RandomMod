@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "new_ridiculous_mod_for_the_hahas:block/icecreamscoopblock.png",
+    "particle": "new_ridiculous_mod_for_the_hahas:block/icecreamscoopblock.png"
+  },
+  "render_type": "cutout"
+}

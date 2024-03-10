@@ -199,13 +199,13 @@
       "registry_name": "ice_cream_cone_plant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_cone_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamConePlantBlock.java",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json"
         ]
       }
     },
@@ -287,6 +287,119 @@
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/advancements/you_scream_we_scream.json"
         ]
       }
+    },
+    {
+      "name": "IceCreamScoop",
+      "type": "plant",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_scoop.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_scoop.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamScoopBlock.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_scoop.json"
+        ]
+      }
+    },
+    {
+      "name": "IceCreamScoopUpdateTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceCreamScoopOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceCreamScoopBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_scoop_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -297,6 +410,7 @@
       "biome.new_ridiculous_mod_for_the_hahas.diamond_place": "Diamond Place",
       "item.new_ridiculous_mod_for_the_hahas.cone": "Cone",
       "advancements.you_scream_we_scream.descr": "collect an ice cream cone!",
+      "block.new_ridiculous_mod_for_the_hahas.ice_cream_scoop": "Ice Cream Scoop",
       "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
       "item.new_ridiculous_mod_for_the_hahas.googly_eyes_helmet": "Googly Eyes",
       "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
@@ -306,7 +420,7 @@
       "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "item.new_ridiculous_mod_for_the_hahas.diamond_dimension": "Rock",
       "block.new_ridiculous_mod_for_the_hahas.glue_plant": "Glue bottle",
-      "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone Plant",
+      "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone",
       "biome.new_ridiculous_mod_for_the_hahas.diamond_netherite_land": "Diamond Netherite Land",
       "item.new_ridiculous_mod_for_the_hahas.glue": "Glue"
     }

@@ -43,6 +43,7 @@ public class NewRidiculousModForTheHahasModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(NewRidiculousModForTheHahasModBlocks.GLUE_PLANT.get().asItem());
 			tabData.accept(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT.get().asItem());
+			tabData.accept(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_SCOOP.get().asItem());
 		}
 	}
 }

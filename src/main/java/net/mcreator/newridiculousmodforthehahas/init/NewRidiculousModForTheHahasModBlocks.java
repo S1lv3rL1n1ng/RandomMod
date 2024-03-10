@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.newridiculousmodforthehahas.block.IceCreamScoopBlock;
 import net.mcreator.newridiculousmodforthehahas.block.IceCreamConePlantBlock;
 import net.mcreator.newridiculousmodforthehahas.block.GluePlantBlock;
 import net.mcreator.newridiculousmodforthehahas.block.DiamondDimensionPortalBlock;
@@ -20,4 +21,5 @@ public class NewRidiculousModForTheHahasModBlocks {
 	public static final RegistryObject<Block> GLUE_PLANT = REGISTRY.register("glue_plant", () -> new GluePlantBlock());
 	public static final RegistryObject<Block> DIAMOND_DIMENSION_PORTAL = REGISTRY.register("diamond_dimension_portal", () -> new DiamondDimensionPortalBlock());
 	public static final RegistryObject<Block> ICE_CREAM_CONE_PLANT = REGISTRY.register("ice_cream_cone_plant", () -> new IceCreamConePlantBlock());
+	public static final RegistryObject<Block> ICE_CREAM_SCOOP = REGISTRY.register("ice_cream_scoop", () -> new IceCreamScoopBlock());
 }
