@@ -631,6 +631,37 @@
           "src/main/resources/data/forge/tags/items/scythe.json"
         ]
       }
+    },
+    {
+      "name": "IceCreamConePlantPlantRightClicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_cone_plant_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamConePlantPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -643,8 +674,8 @@
       "advancements.you_scream_we_scream.descr": "collect an ice cream cone!",
       "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
       "item.new_ridiculous_mod_for_the_hahas.stone_scythe": "Stone Scythe",
-      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "advancements.you_scream_we_scream.title": "YOU SCREAM I SCREAM!!",
+      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone",
       "item.new_ridiculous_mod_for_the_hahas.wooden_scythe": "Wooden Scythe",
