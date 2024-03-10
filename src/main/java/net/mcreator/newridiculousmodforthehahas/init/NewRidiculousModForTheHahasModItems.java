@@ -26,7 +26,6 @@ import net.mcreator.newridiculousmodforthehahas.item.GlueItem;
 import net.mcreator.newridiculousmodforthehahas.item.GIANTSTICKItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondDimensionItem;
-import net.mcreator.newridiculousmodforthehahas.item.DemiseItem;
 import net.mcreator.newridiculousmodforthehahas.item.ConeItem;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 

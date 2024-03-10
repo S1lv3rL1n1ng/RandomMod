@@ -2,12 +2,12 @@
   "type": "minecraft:smithing_transform",
   "template": [],
   "base": {
-    "item": "new_ridiculous_mod_for_the_hahas:deleted_mod_element"
+    "item": "new_ridiculous_mod_for_the_hahas:diamond_scythe"
   },
   "addition": {
     "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "item": "new_ridiculous_mod_for_the_hahas:deleted_mod_element"
+    "item": "new_ridiculous_mod_for_the_hahas:netherite_scythe"
   }
 }
