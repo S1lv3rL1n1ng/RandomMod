@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    " ba",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "new_ridiculous_mod_for_the_hahas:stone_scythe",
+    "count": 1
+  }
+}

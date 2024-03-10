@@ -12,12 +12,19 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.newridiculousmodforthehahas.item.WoodenScytheItem;
+import net.mcreator.newridiculousmodforthehahas.item.StoneScytheItem;
+import net.mcreator.newridiculousmodforthehahas.item.PulsatingHeartItem;
 import net.mcreator.newridiculousmodforthehahas.item.PetRockItem;
+import net.mcreator.newridiculousmodforthehahas.item.NetheriteScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.M4Item;
+import net.mcreator.newridiculousmodforthehahas.item.IronScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.IceCreamConeItem;
 import net.mcreator.newridiculousmodforthehahas.item.GooglyEyesItem;
+import net.mcreator.newridiculousmodforthehahas.item.GoldScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.GlueItem;
 import net.mcreator.newridiculousmodforthehahas.item.GIANTSTICKItem;
+import net.mcreator.newridiculousmodforthehahas.item.DiamondScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondDimensionItem;
 import net.mcreator.newridiculousmodforthehahas.item.DemiseItem;
 import net.mcreator.newridiculousmodforthehahas.item.ConeItem;
@@ -35,6 +42,14 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> ICE_CREAM_CONE_PLANT = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT);
 	public static final RegistryObject<Item> GLUE = REGISTRY.register("glue", () -> new GlueItem());
 	public static final RegistryObject<Item> M_4 = REGISTRY.register("m_4", () -> new M4Item());
+	public static final RegistryObject<Item> WOODEN_SCYTHE = REGISTRY.register("wooden_scythe", () -> new WoodenScytheItem());
+	public static final RegistryObject<Item> STONE_SCYTHE = REGISTRY.register("stone_scythe", () -> new StoneScytheItem());
+	public static final RegistryObject<Item> IRON_SCYTHE = REGISTRY.register("iron_scythe", () -> new IronScytheItem());
+	public static final RegistryObject<Item> DIAMOND_SCYTHE = REGISTRY.register("diamond_scythe", () -> new DiamondScytheItem());
+	public static final RegistryObject<Item> NETHERITE_SCYTHE = REGISTRY.register("netherite_scythe", () -> new NetheriteScytheItem());
+	public static final RegistryObject<Item> GOLD_SCYTHE = REGISTRY.register("gold_scythe", () -> new GoldScytheItem());
+	public static final RegistryObject<Item> PULSATING_HEART = REGISTRY.register("pulsating_heart", () -> new PulsatingHeartItem());
+	public static final RegistryObject<Item> FLESH_BLOCK = block(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK);
 	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

@@ -1,23 +1,23 @@
 
 package net.mcreator.newridiculousmodforthehahas.item;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class DemiseItem extends SwordItem {
-	public DemiseItem() {
+public class WoodenScytheItem extends SwordItem {
+	public WoodenScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4062;
+				return 59;
 			}
 
 			public float getSpeed() {
@@ -25,7 +25,7 @@ public class DemiseItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 10f;
+				return 1f;
 			}
 
 			public int getLevel() {
@@ -37,9 +37,9 @@ public class DemiseItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.ROTTEN_FLESH));
+				return Ingredient.of(new ItemStack(Blocks.OAK_PLANKS));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -3.5f, new Item.Properties());
 	}
 
 	@Override

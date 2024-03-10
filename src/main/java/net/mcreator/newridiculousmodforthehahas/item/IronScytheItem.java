@@ -13,11 +13,11 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class DemiseItem extends SwordItem {
-	public DemiseItem() {
+public class IronScytheItem extends SwordItem {
+	public IronScytheItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 4062;
+				return 250;
 			}
 
 			public float getSpeed() {
@@ -25,7 +25,7 @@ public class DemiseItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 10f;
+				return 7f;
 			}
 
 			public int getLevel() {
@@ -37,9 +37,9 @@ public class DemiseItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.ROTTEN_FLESH));
+				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -3.4f, new Item.Properties());
 	}
 
 	@Override

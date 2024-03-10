@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pixil-frame-0_-_2024-03-09t220023.720",
+    "texture": "pixil-frame-0_-_2024-03-09t231055.666",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Demise",
+    "name": "Gold Scythe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,17 +17,17 @@
     },
     "harvestLevel": 0,
     "efficiency": 0.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.5,
     "enchantability": 2,
-    "damageVsEntity": 12.0,
-    "usageCount": 4062,
+    "damageVsEntity": 3.0,
+    "usageCount": 32,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "Items.ROTTEN_FLESH"
+        "value": "Items.GOLD_INGOT"
       }
     ],
     "immuneToFire": false,

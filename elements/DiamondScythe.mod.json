@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "pixil-frame-0_-_2024-03-09t220023.720",
+    "texture": "pixil-frame-0_-_2024-03-09t222132.288",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Demise",
+    "name": "Diamond Scythe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,17 +17,17 @@
     },
     "harvestLevel": 0,
     "efficiency": 0.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.7,
     "enchantability": 2,
-    "damageVsEntity": 12.0,
-    "usageCount": 4062,
+    "damageVsEntity": 9.0,
+    "usageCount": 1561,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "Items.ROTTEN_FLESH"
+        "value": "Items.DIAMOND"
       }
     ],
     "immuneToFire": false,
