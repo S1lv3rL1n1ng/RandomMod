@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WoodenScythe"
+      },
+      {
+        "value": "CUSTOM:StoneScythe"
+      },
+      {
+        "value": "CUSTOM:IronScythe"
+      },
+      {
+        "value": "CUSTOM:GoldScythe"
+      },
+      {
+        "value": "CUSTOM:DiamondScythe"
+      },
+      {
+        "value": "CUSTOM:NetheriteScythe"
+      },
+      {
+        "value": "CUSTOM:Demise"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "scythe",
+    "namespace": "forge"
+  }
+}

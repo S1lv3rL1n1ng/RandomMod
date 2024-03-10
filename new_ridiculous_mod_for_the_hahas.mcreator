@@ -618,6 +618,19 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/demise.json"
         ]
       }
+    },
+    {
+      "name": "Scythe",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/scythe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
