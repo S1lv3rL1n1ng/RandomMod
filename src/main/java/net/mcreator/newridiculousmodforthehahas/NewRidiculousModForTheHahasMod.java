@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModTabs;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModItems;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModEntities;
+import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModEnchantments;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModBlocks;
 
 import java.util.function.Supplier;
@@ -56,7 +57,7 @@ public class NewRidiculousModForTheHahasMod {
 
 		NewRidiculousModForTheHahasModItems.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModEntities.REGISTRY.register(bus);
-
+		NewRidiculousModForTheHahasModEnchantments.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModTabs.REGISTRY.register(bus);
 
 	}
