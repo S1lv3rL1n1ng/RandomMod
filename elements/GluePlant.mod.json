@@ -28,12 +28,12 @@
         "subtract": false
       }
     ],
-    "name": "Glue Plant",
+    "name": "Glue bottle",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "DECORATIONS"
     },
     "hardness": 0.0,
     "resistance": 0.0,

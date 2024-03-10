@@ -22,10 +22,6 @@ public class NewRidiculousModForTheHahasModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(NewRidiculousModForTheHahasModBlocks.GLUE_PLANT.get().asItem());
-		}
-
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(NewRidiculousModForTheHahasModItems.GIANTSTICK.get());
 			tabData.accept(NewRidiculousModForTheHahasModItems.GOOGLY_EYES_HELMET.get());
@@ -41,13 +37,14 @@ public class NewRidiculousModForTheHahasModTabs {
 			tabData.accept(NewRidiculousModForTheHahasModItems.PET_ROCK.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(NewRidiculousModForTheHahasModBlocks.GLUE_PLANT.get().asItem());
+			tabData.accept(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(NewRidiculousModForTheHahasModItems.CONE.get());
 			tabData.accept(NewRidiculousModForTheHahasModItems.ICE_CREAM_CONE.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT.get().asItem());
 		}
 	}
 }

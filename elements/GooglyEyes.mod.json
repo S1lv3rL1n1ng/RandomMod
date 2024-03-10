@@ -14,7 +14,7 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "googly_",
-    "helmetName": "Googly Eyes Helmet",
+    "helmetName": "Googly Eyes",
     "bodyName": "Googly Eyes Chestplate",
     "leggingsName": "Googly Eyes Leggings",
     "bootsName": "Googly Eyes Boots",
@@ -58,6 +58,18 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 0,
     "damageValueHelmet": 9,
     "damageValueBody": 6,
