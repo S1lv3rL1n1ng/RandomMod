@@ -1,0 +1,295 @@
+{
+  "mod_elements": [
+    {
+      "name": "GIANTSTICK",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giantstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/giantstick.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GIANTSTICKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kjldfhg",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kjldfhg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/kjldfhg.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondNetheriteLand",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_netherite_land",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/biome/diamond_netherite_land.json"
+        ]
+      }
+    },
+    {
+      "name": "PetRock",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pet_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pet_rock.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PetRockItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GluePlant",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/glue_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/glue_plant.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/GluePlantBlock.java",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/glue_plant_biome_modifier.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/glue_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/glue_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "GooglyEyes",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "googly_eyes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/googly_eyes_helmet.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GooglyEyesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dsgghsgsykfdk",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsgghsgsykfdk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/dsgghsgsykfdk.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPlace",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_place",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/biome/diamond_place.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondDimension",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/diamond_dimension_portal.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/dimension/DiamondDimensionDimension.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondDimensionItem.java",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension/diamond_dimension.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_dimension.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionTeleporter.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionPortalShape.java",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension_type/diamond_dimension.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/DiamondDimensionPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Hkgfklhsgfgsl",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hkgfklhsgfgsl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/hkgfklhsgfgsl.json"
+        ]
+      }
+    },
+    {
+      "name": "Ldhsgfhgsdfjlghsfjkgsdf",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ldhsgfhgsdfjlghsfjkgsdf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/ldhsgfhgsdfjlghsfjkgsdf.json"
+        ]
+      }
+    },
+    {
+      "name": "Cone",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/cone.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/ConeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IceCreamCone",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_cone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/IceCreamConeItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone.json"
+        ]
+      }
+    },
+    {
+      "name": "IceCreamConePlant",
+      "type": "plant",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cream_cone_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamConePlantBlock.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "Glue",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GlueItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue.json"
+        ]
+      }
+    },
+    {
+      "name": "M4Projectile",
+      "type": "projectile",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_4_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/M4ProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "M4",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/m_4.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/M4Item.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.new_ridiculous_mod_for_the_hahas.pet_rock": "Pet Rock",
+      "biome.new_ridiculous_mod_for_the_hahas.diamond_place": "Diamond Place",
+      "item.new_ridiculous_mod_for_the_hahas.cone": "Cone",
+      "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
+      "item.new_ridiculous_mod_for_the_hahas.googly_eyes_helmet": "Googly Eyes Helmet",
+      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
+      "item.new_ridiculous_mod_for_the_hahas.m_4": "M4",
+      "item.new_ridiculous_mod_for_the_hahas.diamond_dimension": "Rock",
+      "block.new_ridiculous_mod_for_the_hahas.glue_plant": "Glue Plant",
+      "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone Plant",
+      "biome.new_ridiculous_mod_for_the_hahas.diamond_netherite_land": "Diamond Netherite Land",
+      "item.new_ridiculous_mod_for_the_hahas.glue": "Glue"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "new_ridiculous_mod_for_the_hahas",
+    "modName": "new ridiculous mod for the hahas",
+    "version": "1.0.0",
+    "author": "Owner, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.newridiculousmodforthehahas",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

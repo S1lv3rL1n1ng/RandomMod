@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "new_ridiculous_mod_for_the_hahas:block/diamond_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "new_ridiculous_mod_for_the_hahas:block/diamond_dimension_portal_ns"
+    }
+  }
+}

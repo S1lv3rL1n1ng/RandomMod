@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "new_ridiculous_mod_for_the_hahas:googly_eyes_helmet"
+    },
+    "b": {
+      "item": "new_ridiculous_mod_for_the_hahas:glue"
+    },
+    "c": {
+      "item": "new_ridiculous_mod_for_the_hahas:diamond_dimension"
+    }
+  },
+  "result": {
+    "item": "new_ridiculous_mod_for_the_hahas:pet_rock",
+    "count": 1
+  }
+}

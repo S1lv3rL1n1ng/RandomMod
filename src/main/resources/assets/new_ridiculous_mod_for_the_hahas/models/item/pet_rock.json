@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "new_ridiculous_mod_for_the_hahas:item/pet_rock_texture"
+  }
+}

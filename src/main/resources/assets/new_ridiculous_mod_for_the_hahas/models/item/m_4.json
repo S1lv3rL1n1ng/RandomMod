@@ -1,0 +1,7 @@
+{
+  "parent": "new_ridiculous_mod_for_the_hahas:custom/gun_i_guess",
+  "textures": {
+    "0": "new_ridiculous_mod_for_the_hahas:block/gun",
+    "particle": "new_ridiculous_mod_for_the_hahas:item/gun"
+  }
+}

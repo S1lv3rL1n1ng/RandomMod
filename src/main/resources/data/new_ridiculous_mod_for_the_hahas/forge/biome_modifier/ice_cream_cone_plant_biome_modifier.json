@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "new_ridiculous_mod_for_the_hahas:ice_cream_cone_plant",
+  "step": "vegetal_decoration"
+}

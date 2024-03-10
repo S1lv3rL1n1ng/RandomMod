@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_log"
+    },
+    "b": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "new_ridiculous_mod_for_the_hahas:giantstick",
+    "count": 1
+  }
+}
