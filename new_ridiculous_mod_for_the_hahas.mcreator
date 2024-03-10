@@ -9,8 +9,8 @@
       "registry_name": "giantstick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/giantstick.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GIANTSTICKItem.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GIANTSTICKItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/giantstick.json"
         ]
       }
     },
@@ -63,13 +63,13 @@
       "registry_name": "glue_plant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/glue_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/glue_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/glue_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/glue_plant.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/GluePlantBlock.java",
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/glue_plant_biome_modifier.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/glue_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/glue_plant.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/glue_plant.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/glue_plant.json"
         ]
       }
     },
@@ -82,8 +82,8 @@
       "registry_name": "googly_eyes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/googly_eyes_helmet.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GooglyEyesItem.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GooglyEyesItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/googly_eyes_helmet.json"
         ]
       }
     },
@@ -122,17 +122,17 @@
       "registry_name": "diamond_dimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/diamond_dimension_portal.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ew.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/dimension/DiamondDimensionDimension.java",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondDimensionItem.java",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension/diamond_dimension.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_dimension.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionTeleporter.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ns.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension/diamond_dimension.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/dimension/DiamondDimensionDimension.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionPortalShape.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondDimensionItem.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/DiamondDimensionPortalBlock.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/diamond_dimension_portal.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_dimension.json",
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension_type/diamond_dimension.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/DiamondDimensionPortalBlock.java"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ns.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ew.json"
         ]
       }
     },
@@ -199,13 +199,13 @@
       "registry_name": "ice_cream_cone_plant",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamConePlantBlock.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamConePlantBlock.java",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json"
         ]
       }
     },
@@ -218,8 +218,8 @@
       "registry_name": "glue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GlueItem.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GlueItem.java"
         ]
       }
     },
@@ -249,6 +249,31 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/M4Item.java"
         ]
       }
+    },
+    {
+      "name": "Demise",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demise",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DemiseItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/demise.json"
+        ]
+      }
+    },
+    {
+      "name": "RandomGoodies",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_goodies",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -262,6 +287,8 @@
       "item.new_ridiculous_mod_for_the_hahas.googly_eyes_helmet": "Googly Eyes Helmet",
       "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "item.new_ridiculous_mod_for_the_hahas.m_4": "M4",
+      "item.new_ridiculous_mod_for_the_hahas.demise": "Demise",
+      "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "item.new_ridiculous_mod_for_the_hahas.diamond_dimension": "Rock",
       "block.new_ridiculous_mod_for_the_hahas.glue_plant": "Glue Plant",
       "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone Plant",

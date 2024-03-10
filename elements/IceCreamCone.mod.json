@@ -10,7 +10,7 @@
     "name": "Ice Cream Cone",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:RandomGoodies"
     },
     "stackSize": 64,
     "enchantability": 0,
