@@ -25,20 +25,20 @@ public class NewRidiculousModForTheHahasModTabs {
 			.icon(() -> new ItemStack(NewRidiculousModForTheHahasModItems.PET_ROCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NewRidiculousModForTheHahasModItems.GIANTSTICK.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.PET_ROCK.get());
+				tabData.accept(NewRidiculousModForTheHahasModItems.GLUE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.GOOGLY_EYES_HELMET.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.CONE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.ICE_CREAM_CONE.get());
-				tabData.accept(NewRidiculousModForTheHahasModItems.GLUE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.M_4.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.WOODEN_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.STONE_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.IRON_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.DIAMOND_SCYTHE.get());
-				tabData.accept(NewRidiculousModForTheHahasModItems.NETHERITE_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.GOLD_SCYTHE.get());
+				tabData.accept(NewRidiculousModForTheHahasModItems.NETHERITE_SCYTHE.get());
+				tabData.accept(NewRidiculousModForTheHahasModItems.DEMISE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.PULSATING_HEART.get());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK.get().asItem());
-				tabData.accept(NewRidiculousModForTheHahasModItems.DEMISE.get());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.ENCHANTMENT_ARCHITECT.get().asItem());
 			}).withSearchBar().build());
 

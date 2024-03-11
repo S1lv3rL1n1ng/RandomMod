@@ -3,7 +3,7 @@
     {
       "name": "GIANTSTICK",
       "type": "tool",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "giantstick",
@@ -17,7 +17,7 @@
     {
       "name": "Kjldfhg",
       "type": "recipe",
-      "sortid": 1,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kjldfhg",
@@ -30,7 +30,7 @@
     {
       "name": "DiamondNetheriteLand",
       "type": "biome",
-      "sortid": 3,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_netherite_land",
@@ -43,7 +43,7 @@
     {
       "name": "PetRock",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pet_rock",
@@ -57,7 +57,7 @@
     {
       "name": "GluePlant",
       "type": "plant",
-      "sortid": 5,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glue_plant",
@@ -76,7 +76,7 @@
     {
       "name": "GooglyEyes",
       "type": "armor",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "googly_eyes",
@@ -90,7 +90,7 @@
     {
       "name": "Dsgghsgsykfdk",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsgghsgsykfdk",
@@ -103,7 +103,7 @@
     {
       "name": "DiamondPlace",
       "type": "biome",
-      "sortid": 8,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_place",
@@ -116,7 +116,7 @@
     {
       "name": "DiamondDimension",
       "type": "dimension",
-      "sortid": 9,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dimension",
@@ -139,7 +139,7 @@
     {
       "name": "Hkgfklhsgfgsl",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hkgfklhsgfgsl",
@@ -152,7 +152,7 @@
     {
       "name": "Ldhsgfhgsdfjlghsfjkgsdf",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ldhsgfhgsdfjlghsfjkgsdf",
@@ -165,7 +165,7 @@
     {
       "name": "Cone",
       "type": "item",
-      "sortid": 12,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cone",
@@ -179,7 +179,7 @@
     {
       "name": "IceCreamCone",
       "type": "item",
-      "sortid": 13,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_cone",
@@ -193,7 +193,7 @@
     {
       "name": "IceCreamConePlant",
       "type": "plant",
-      "sortid": 14,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_cone_plant",
@@ -212,7 +212,7 @@
     {
       "name": "Glue",
       "type": "item",
-      "sortid": 15,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glue",
@@ -226,7 +226,7 @@
     {
       "name": "M4Projectile",
       "type": "projectile",
-      "sortid": 17,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "m_4_projectile",
@@ -239,7 +239,7 @@
     {
       "name": "M4",
       "type": "item",
-      "sortid": 16,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "m_4",
@@ -253,7 +253,7 @@
     {
       "name": "RandomGoodies",
       "type": "tab",
-      "sortid": 19,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "random_goodies",
@@ -264,7 +264,7 @@
     {
       "name": "DiamondScytheRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_scythe_recipe",
@@ -277,7 +277,7 @@
     {
       "name": "GoldScytheRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_scythe_recipe",
@@ -290,7 +290,7 @@
     {
       "name": "PulsatingHeart",
       "type": "item",
-      "sortid": 26,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pulsating_heart",
@@ -317,7 +317,7 @@
     {
       "name": "DemiseScytheRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demise_scythe_recipe",
@@ -330,7 +330,7 @@
     {
       "name": "GoldScythe",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_scythe",
@@ -344,7 +344,7 @@
     {
       "name": "WoodenScythe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_scythe",
@@ -358,7 +358,7 @@
     {
       "name": "WoodenScytheRecipes",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_scythe_recipes",
@@ -371,7 +371,7 @@
     {
       "name": "StoneScytheRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_scythe_recipe",
@@ -384,7 +384,7 @@
     {
       "name": "StoneScythe",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_scythe",
@@ -398,7 +398,7 @@
     {
       "name": "IronScythe",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_scythe",
@@ -412,7 +412,7 @@
     {
       "name": "FleshBlock",
       "type": "block",
-      "sortid": 27,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flesh_block",
@@ -428,7 +428,7 @@
     {
       "name": "NetheriteScythe",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_scythe",
@@ -442,7 +442,7 @@
     {
       "name": "IronScytheRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_scythe_recipe",
@@ -455,7 +455,7 @@
     {
       "name": "DiamondScythe",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_scythe",
@@ -469,7 +469,7 @@
     {
       "name": "IceCreamScoopOnBoneMealSuccess",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_scoop_on_bone_meal_success",
@@ -500,7 +500,7 @@
     {
       "name": "IceCreamConeToIceCreamScoop",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_cone_to_ice_cream_scoop",
@@ -513,7 +513,7 @@
     {
       "name": "YouScreamWeScream",
       "type": "achievement",
-      "sortid": 20,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "you_scream_we_scream",
@@ -526,7 +526,7 @@
     {
       "name": "IceCreamScoop",
       "type": "plant",
-      "sortid": 21,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_scoop",
@@ -542,7 +542,7 @@
     {
       "name": "IceCreamScoopBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_scoop_block_is_placed_by",
@@ -577,7 +577,7 @@
     {
       "name": "IceCreamScoopUpdateTick",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_scoop_update_tick",
@@ -608,7 +608,7 @@
     {
       "name": "Demise",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "demise",
@@ -622,7 +622,7 @@
     {
       "name": "Scythe",
       "type": "tag",
-      "sortid": 37,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scythe",
@@ -635,7 +635,7 @@
     {
       "name": "IceCreamConePlantPlantRightClicked",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_cream_cone_plant_plant_right_clicked",
@@ -666,7 +666,7 @@
     {
       "name": "WitheringEdge",
       "type": "enchantment",
-      "sortid": 39,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withering_edge",
@@ -679,7 +679,7 @@
     {
       "name": "HitDetection",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hit_detection",
@@ -702,7 +702,7 @@
     {
       "name": "EnchantmentArchitect",
       "type": "block",
-      "sortid": 41,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_architect",
@@ -719,7 +719,7 @@
     {
       "name": "EnchantmentArchitectGui",
       "type": "gui",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_architect_gui",
@@ -733,7 +733,7 @@
     {
       "name": "EnchantmentArchitectOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_architect_on_block_right_clicked",
@@ -781,8 +781,8 @@
       "advancements.you_scream_we_scream.descr": "collect an ice cream cone!",
       "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
       "item.new_ridiculous_mod_for_the_hahas.stone_scythe": "Stone Scythe",
-      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "advancements.you_scream_we_scream.title": "YOU SCREAM I SCREAM!!",
+      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone",
       "item.new_ridiculous_mod_for_the_hahas.wooden_scythe": "Wooden Scythe",

@@ -20,10 +20,10 @@ import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
 public class NewRidiculousModForTheHahasModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, NewRidiculousModForTheHahasMod.MODID);
-	public static final RegistryObject<Block> GLUE_PLANT = REGISTRY.register("glue_plant", () -> new GluePlantBlock());
-	public static final RegistryObject<Block> DIAMOND_DIMENSION_PORTAL = REGISTRY.register("diamond_dimension_portal", () -> new DiamondDimensionPortalBlock());
-	public static final RegistryObject<Block> ICE_CREAM_CONE_PLANT = REGISTRY.register("ice_cream_cone_plant", () -> new IceCreamConePlantBlock());
-	public static final RegistryObject<Block> ICE_CREAM_SCOOP = REGISTRY.register("ice_cream_scoop", () -> new IceCreamScoopBlock());
 	public static final RegistryObject<Block> FLESH_BLOCK = REGISTRY.register("flesh_block", () -> new FleshBlockBlock());
 	public static final RegistryObject<Block> ENCHANTMENT_ARCHITECT = REGISTRY.register("enchantment_architect", () -> new EnchantmentArchitectBlock());
+	public static final RegistryObject<Block> GLUE_PLANT = REGISTRY.register("glue_plant", () -> new GluePlantBlock());
+	public static final RegistryObject<Block> ICE_CREAM_CONE_PLANT = REGISTRY.register("ice_cream_cone_plant", () -> new IceCreamConePlantBlock());
+	public static final RegistryObject<Block> ICE_CREAM_SCOOP = REGISTRY.register("ice_cream_scoop", () -> new IceCreamScoopBlock());
+	public static final RegistryObject<Block> DIAMOND_DIMENSION_PORTAL = REGISTRY.register("diamond_dimension_portal", () -> new DiamondDimensionPortalBlock());
 }
