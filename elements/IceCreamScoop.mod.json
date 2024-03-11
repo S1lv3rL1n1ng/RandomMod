@@ -80,17 +80,11 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": true,
-    "onBonemealSuccess": {
-      "name": "IceCreamScoopOnBoneMealSuccess"
-    },
     "frequencyOnChunks": 0,
     "generateFeature": false,
     "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 1,
-    "generateAtAnyHeight": false,
-    "onTickUpdate": {
-      "name": "IceCreamScoopUpdateTick"
-    }
+    "generateAtAnyHeight": false
   }
 }

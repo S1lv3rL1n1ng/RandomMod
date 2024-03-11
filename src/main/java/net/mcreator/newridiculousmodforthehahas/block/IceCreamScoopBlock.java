@@ -21,9 +21,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.newridiculousmodforthehahas.procedures.IceCreamScoopUpdateTickProcedure;
-import net.mcreator.newridiculousmodforthehahas.procedures.IceCreamScoopOnBoneMealSuccessProcedure;
-
 import java.util.List;
 import java.util.Collections;
 
@@ -61,12 +58,6 @@ public class IceCreamScoopBlock extends FlowerBlock implements BonemealableBlock
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
-		IceCreamScoopUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
-	}
-
-	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
 		return true;
 	}
@@ -78,6 +69,5 @@ public class IceCreamScoopBlock extends FlowerBlock implements BonemealableBlock
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		IceCreamScoopOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

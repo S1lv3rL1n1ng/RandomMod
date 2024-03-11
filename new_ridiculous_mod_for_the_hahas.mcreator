@@ -9,8 +9,8 @@
       "registry_name": "giantstick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GIANTSTICKItem.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/giantstick.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/giantstick.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GIANTSTICKItem.java"
         ]
       }
     },
@@ -63,13 +63,13 @@
       "registry_name": "glue_plant",
       "metadata": {
         "files": [
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/glue_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/glue_plant.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/GluePlantBlock.java",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/glue_plant_biome_modifier.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/glue_plant.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/glue_plant.json"
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/glue_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/glue_plant.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/GluePlantBlock.java",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/glue_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/glue_plant_biome_modifier.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/glue_plant.json"
         ]
       }
     },
@@ -122,17 +122,17 @@
       "registry_name": "diamond_dimension",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionTeleporter.java",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension/diamond_dimension.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/dimension/DiamondDimensionDimension.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionPortalShape.java",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondDimensionItem.java",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/DiamondDimensionPortalBlock.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/diamond_dimension_portal.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_dimension.json",
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension_type/diamond_dimension.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ns.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ew.json"
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/DiamondDimensionPortalBlock.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondDimensionItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/diamond_dimension_portal.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_dimension.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/dimension/diamond_dimension.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/dimension/DiamondDimensionDimension.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/teleporter/DiamondDimensionTeleporter.java"
         ]
       }
     },
@@ -199,13 +199,13 @@
       "registry_name": "ice_cream_cone_plant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_cone_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamConePlantBlock.java",
-          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json"
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/placed_feature/ice_cream_cone_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone_plant.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/configured_feature/ice_cream_cone_plant.json",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/ice_cream_cone_plant_biome_modifier.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_cone_plant.json"
         ]
       }
     },
@@ -218,8 +218,8 @@
       "registry_name": "glue",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GlueItem.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GlueItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue.json"
         ]
       }
     },
@@ -245,8 +245,8 @@
       "registry_name": "m_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/m_4.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/M4Item.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/M4Item.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/m_4.json"
         ]
       }
     },
@@ -296,8 +296,8 @@
       "registry_name": "pulsating_heart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pulsating_heart.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PulsatingHeartItem.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PulsatingHeartItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pulsating_heart.json"
         ]
       }
     },
@@ -418,10 +418,10 @@
       "registry_name": "flesh_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/FleshBlockBlock.java",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/flesh_block.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/flesh_block.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/flesh_block.json"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/FleshBlockBlock.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/flesh_block.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/flesh_block.json"
         ]
       }
     },
@@ -434,8 +434,8 @@
       "registry_name": "netherite_scythe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/netherite_scythe.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/NetheriteScytheItem.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/item/NetheriteScytheItem.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/netherite_scythe.json"
         ]
       }
     },
@@ -463,37 +463,6 @@
         "files": [
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_scythe.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondScytheItem.java"
-        ]
-      }
-    },
-    {
-      "name": "IceCreamScoopOnBoneMealSuccess",
-      "type": "procedure",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_scoop_on_bone_meal_success",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopOnBoneMealSuccessProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
@@ -532,76 +501,10 @@
       "registry_name": "ice_cream_scoop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_scoop.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamScoopBlock.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_scoop.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_scoop.json"
-        ]
-      }
-    },
-    {
-      "name": "IceCreamScoopBlockIsPlacedBy",
-      "type": "procedure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_scoop_block_is_placed_by",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopBlockIsPlacedByProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "IceCreamScoopUpdateTick",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_scoop_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_scoop.json",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_scoop.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamScoopBlock.java"
         ]
       }
     },
@@ -629,37 +532,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forge/tags/items/scythe.json"
-        ]
-      }
-    },
-    {
-      "name": "IceCreamConePlantPlantRightClicked",
-      "type": "procedure",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_cone_plant_plant_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamConePlantPlantRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
@@ -708,10 +580,10 @@
       "registry_name": "enchantment_architect",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/entity/EnchantmentArchitectBlockEntity.java",
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/enchantment_architect.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/enchantment_architect.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/enchantment_architect.json",
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/enchantment_architect.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/entity/EnchantmentArchitectBlockEntity.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/EnchantmentArchitectBlock.java"
         ]
       }
@@ -725,8 +597,8 @@
       "registry_name": "enchantment_architect_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/inventory/EnchantmentArchitectGuiMenu.java",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/gui/EnchantmentArchitectGuiScreen.java"
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/gui/EnchantmentArchitectGuiScreen.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/inventory/EnchantmentArchitectGuiMenu.java"
         ]
       }
     },
@@ -781,8 +653,8 @@
       "advancements.you_scream_we_scream.descr": "collect an ice cream cone!",
       "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
       "item.new_ridiculous_mod_for_the_hahas.stone_scythe": "Stone Scythe",
-      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "advancements.you_scream_we_scream.title": "YOU SCREAM I SCREAM!!",
+      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone",
       "item.new_ridiculous_mod_for_the_hahas.wooden_scythe": "Wooden Scythe",
