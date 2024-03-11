@@ -711,13 +711,68 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/enchantment_architect.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/enchantment_architect.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/enchantment_architect.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/block/entity/EnchantmentArchitectBlockEntity.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/EnchantmentArchitectBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EnchantmentArchitectGui",
+      "type": "gui",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_architect_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/world/inventory/EnchantmentArchitectGuiMenu.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/gui/EnchantmentArchitectGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "EnchantmentArchitectOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_architect_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/EnchantmentArchitectOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "vorpal_tremor",
+      "files": [
+        "myedit_ai_sfx_0310213708-_audiotrimmer.com_"
+      ],
+      "category": "block",
+      "subtitle": "tremor"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.new_ridiculous_mod_for_the_hahas.netherite_scythe": "Netherite Scythe",
@@ -733,6 +788,7 @@
       "item.new_ridiculous_mod_for_the_hahas.wooden_scythe": "Wooden Scythe",
       "biome.new_ridiculous_mod_for_the_hahas.diamond_netherite_land": "Diamond Netherite Land",
       "item.new_ridiculous_mod_for_the_hahas.gold_scythe": "Gold Scythe",
+      "subtitles.vorpal_tremor": "tremor",
       "item.new_ridiculous_mod_for_the_hahas.cone": "Cone",
       "block.new_ridiculous_mod_for_the_hahas.ice_cream_scoop": "Ice Cream Scoop",
       "block.new_ridiculous_mod_for_the_hahas.flesh_block": "Flesh Block",

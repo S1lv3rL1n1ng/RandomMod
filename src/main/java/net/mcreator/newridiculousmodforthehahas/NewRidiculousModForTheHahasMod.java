@@ -30,10 +30,13 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModTabs;
+import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModSounds;
+import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModMenus;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModItems;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModEntities;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModEnchantments;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModBlocks;
+import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,14 +55,15 @@ public class NewRidiculousModForTheHahasMod {
 	public NewRidiculousModForTheHahasMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		NewRidiculousModForTheHahasModSounds.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModBlocks.REGISTRY.register(bus);
-
+		NewRidiculousModForTheHahasModBlockEntities.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModItems.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModEntities.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModEnchantments.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModTabs.REGISTRY.register(bus);
 
+		NewRidiculousModForTheHahasModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
