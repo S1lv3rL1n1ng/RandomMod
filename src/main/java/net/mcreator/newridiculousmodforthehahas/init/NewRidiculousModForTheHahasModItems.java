@@ -42,8 +42,8 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> WOODEN_SCYTHE = REGISTRY.register("wooden_scythe", () -> new WoodenScytheItem());
 	public static final RegistryObject<Item> STONE_SCYTHE = REGISTRY.register("stone_scythe", () -> new StoneScytheItem());
 	public static final RegistryObject<Item> IRON_SCYTHE = REGISTRY.register("iron_scythe", () -> new IronScytheItem());
-	public static final RegistryObject<Item> DIAMOND_SCYTHE = REGISTRY.register("diamond_scythe", () -> new DiamondScytheItem());
 	public static final RegistryObject<Item> GOLD_SCYTHE = REGISTRY.register("gold_scythe", () -> new GoldScytheItem());
+	public static final RegistryObject<Item> DIAMOND_SCYTHE = REGISTRY.register("diamond_scythe", () -> new DiamondScytheItem());
 	public static final RegistryObject<Item> NETHERITE_SCYTHE = REGISTRY.register("netherite_scythe", () -> new NetheriteScytheItem());
 	public static final RegistryObject<Item> DEMISE = REGISTRY.register("demise", () -> new DemiseItem());
 	public static final RegistryObject<Item> PULSATING_HEART = REGISTRY.register("pulsating_heart", () -> new PulsatingHeartItem());

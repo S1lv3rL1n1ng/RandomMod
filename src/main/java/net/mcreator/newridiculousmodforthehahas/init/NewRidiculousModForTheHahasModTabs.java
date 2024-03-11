@@ -33,8 +33,8 @@ public class NewRidiculousModForTheHahasModTabs {
 				tabData.accept(NewRidiculousModForTheHahasModItems.WOODEN_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.STONE_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.IRON_SCYTHE.get());
-				tabData.accept(NewRidiculousModForTheHahasModItems.DIAMOND_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.GOLD_SCYTHE.get());
+				tabData.accept(NewRidiculousModForTheHahasModItems.DIAMOND_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.NETHERITE_SCYTHE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.DEMISE.get());
 				tabData.accept(NewRidiculousModForTheHahasModItems.PULSATING_HEART.get());
