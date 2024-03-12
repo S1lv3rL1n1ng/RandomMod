@@ -19,6 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.newridiculousmodforthehahas.procedures.EnchantmentArchitectGuiThisGUIIsOpenedProcedure;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModMenus;
 
 import java.util.function.Supplier;
@@ -97,6 +98,7 @@ public class EnchantmentArchitectGuiMenu extends AbstractContainerMenu implement
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -2 + 8 + sj * 18, 24 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, -2 + 8 + si * 18, 24 + 142));
+		EnchantmentArchitectGuiThisGUIIsOpenedProcedure.execute(world, x, y, z, entity);
 	}
 
 	@Override

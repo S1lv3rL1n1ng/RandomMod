@@ -35,13 +35,13 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/enchantment_architect_gui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+		if (mouseX > leftPos + 169 && mouseX < leftPos + 193 && mouseY > topPos + 104 && mouseY < topPos + 128)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.new_ridiculous_mod_for_the_hahas.enchantment_architect_gui.tooltip_arcane_simulation"), mouseX, mouseY);
 	}
 
 	@Override
@@ -49,7 +49,6 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/gui.png"), this.leftPos + 23, this.topPos + -33, 0, 0, 128, 128, 128, 128);
 
