@@ -7,18 +7,9 @@
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 24,
-    "renderBgLayer": false,
+    "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
-      {
-        "type": "image",
-        "data": {
-          "image": "image_2024-03-10_2105299341.png",
-          "use1Xscale": true,
-          "x": 126,
-          "y": 59
-        }
-      },
       {
         "type": "image",
         "data": {
@@ -116,6 +107,28 @@
           "dropItemsWhenNotBound": true,
           "x": 205,
           "y": 98
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pixilframe0_20240311t16584",
+          "image": "pixil-frame-0_-_2024-03-11t165841.603.png",
+          "hoveredImage": "pixil-frame-0_-_2024-03-11t172029.838.png",
+          "onClick": {
+            "name": "ActivateTrial"
+          },
+          "x": 300,
+          "y": 144
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aefaa.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 59
         }
       }
     ],

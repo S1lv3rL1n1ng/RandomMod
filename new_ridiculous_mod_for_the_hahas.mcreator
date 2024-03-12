@@ -726,6 +726,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/newridiculousmodforthehahas/world/inventory/EnchantmentArchitectGuiMenu.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/network/EnchantmentArchitectGuiButtonMessage.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/gui/EnchantmentArchitectGuiScreen.java"
         ]
       }
@@ -742,6 +743,194 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/EnchantmentArchitectOnBlockRightClickedProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ActivateTrial",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_trial",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/ActivateTrialProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantmentArchitectUpdateTick",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_architect_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/EnchantmentArchitectUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArcaneStarParticle",
+      "type": "particle",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_star_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/arcane_star_particle.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/ArcaneStarParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "ArcaneHuskOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_husk_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/ArcaneHuskOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArcaneHusk",
+      "type": "livingentity",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_husk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/renderer/ArcaneHuskRenderer.java",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/ArcaneHuskEntity.java",
+          "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/arcane_husk_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ArcaneHuskEntityIsHurt",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_husk_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/ArcaneHuskEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerItemRemove",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_item_remove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/PlayerItemRemoveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -781,12 +970,13 @@
       "advancements.you_scream_we_scream.descr": "collect an ice cream cone!",
       "item.new_ridiculous_mod_for_the_hahas.giantstick": "GIANT STICK",
       "item.new_ridiculous_mod_for_the_hahas.stone_scythe": "Stone Scythe",
-      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "advancements.you_scream_we_scream.title": "YOU SCREAM I SCREAM!!",
+      "item.new_ridiculous_mod_for_the_hahas.ice_cream_cone": "Ice Cream Cone",
       "item_group.new_ridiculous_mod_for_the_hahas.random_goodies": "Random Goodies",
       "block.new_ridiculous_mod_for_the_hahas.ice_cream_cone_plant": "Ice Cream Cone",
       "item.new_ridiculous_mod_for_the_hahas.wooden_scythe": "Wooden Scythe",
       "biome.new_ridiculous_mod_for_the_hahas.diamond_netherite_land": "Diamond Netherite Land",
+      "gui.new_ridiculous_mod_for_the_hahas.enchantment_architect_gui.button_faaef": "faAEF",
       "item.new_ridiculous_mod_for_the_hahas.gold_scythe": "Gold Scythe",
       "subtitles.vorpal_tremor": "tremor",
       "item.new_ridiculous_mod_for_the_hahas.cone": "Cone",
@@ -802,6 +992,7 @@
       "block.new_ridiculous_mod_for_the_hahas.glue_plant": "Glue bottle",
       "item.new_ridiculous_mod_for_the_hahas.pulsating_heart": "Pulsating Heart",
       "item.new_ridiculous_mod_for_the_hahas.iron_scythe": "Iron Scythe",
+      "entity.new_ridiculous_mod_for_the_hahas.arcane_husk": "Arcane Husk",
       "item.new_ridiculous_mod_for_the_hahas.glue": "Glue"
     }
   },

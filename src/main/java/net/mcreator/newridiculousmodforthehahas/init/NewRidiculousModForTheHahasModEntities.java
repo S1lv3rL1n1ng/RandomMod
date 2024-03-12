@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.newridiculousmodforthehahas.entity.M4ProjectileEntity;
+import net.mcreator.newridiculousmodforthehahas.entity.ArcaneHuskEntity;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class NewRidiculousModForTheHahasModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, NewRidiculousModForTheHahasMod.MODID);
 	public static final RegistryObject<EntityType<M4ProjectileEntity>> M_4_PROJECTILE = register("projectile_m_4_projectile",
 			EntityType.Builder.<M4ProjectileEntity>of(M4ProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(M4ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ArcaneHuskEntity>> ARCANE_HUSK = register("arcane_husk",
+			EntityType.Builder.<ArcaneHuskEntity>of(ArcaneHuskEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ArcaneHuskEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -32,10 +37,12 @@ public class NewRidiculousModForTheHahasModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			ArcaneHuskEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(ARCANE_HUSK.get(), ArcaneHuskEntity.createAttributes().build());
 	}
 }

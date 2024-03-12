@@ -58,7 +58,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "EnchantmentArchitectUpdateTick"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

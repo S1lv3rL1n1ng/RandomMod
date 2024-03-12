@@ -11,10 +11,13 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.newridiculousmodforthehahas.client.renderer.ArcaneHuskRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class NewRidiculousModForTheHahasModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.M_4_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.ARCANE_HUSK.get(), ArcaneHuskRenderer::new);
 	}
 }
