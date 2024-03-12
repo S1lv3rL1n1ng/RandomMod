@@ -89,9 +89,6 @@
     ],
     "generationType": "Flower",
     "patchSize": 8,
-    "generateAtAnyHeight": false,
-    "onRightClicked": {
-      "name": "IceCreamConePlantPlantRightClicked"
-    }
+    "generateAtAnyHeight": false
   }
 }

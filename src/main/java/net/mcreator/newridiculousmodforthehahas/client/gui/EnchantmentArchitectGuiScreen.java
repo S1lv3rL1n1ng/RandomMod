@@ -1,27 +1,13 @@
 package net.mcreator.newridiculousmodforthehahas.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.ImageButton;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.newridiculousmodforthehahas.world.inventory.EnchantmentArchitectGuiMenu;
-import net.mcreator.newridiculousmodforthehahas.network.EnchantmentArchitectGuiButtonMessage;
-import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<EnchantmentArchitectGuiMenu> {
+
 	private final static HashMap<String, Object> guistate = EnchantmentArchitectGuiMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	ImageButton imagebutton_pixilframe0_20240311t16584;
 
 	public EnchantmentArchitectGuiScreen(EnchantmentArchitectGuiMenu container, Inventory inventory, Component text) {
@@ -40,8 +26,11 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -49,6 +38,7 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/gui.png"), this.leftPos + 23, this.topPos + -33, 0, 0, 128, 128, 128, 128);
@@ -64,6 +54,7 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -84,6 +75,7 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 	@Override
 	public void init() {
 		super.init();
+
 		imagebutton_pixilframe0_20240311t16584 = new ImageButton(this.leftPos + 172, this.topPos + 107, 19, 18, 0, 0, 18, new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/atlas/imagebutton_pixilframe0_20240311t16584.png"), 19,
 				36, e -> {
 					if (true) {
@@ -91,7 +83,10 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 						EnchantmentArchitectGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 					}
 				});
+
 		guistate.put("button:imagebutton_pixilframe0_20240311t16584", imagebutton_pixilframe0_20240311t16584);
 		this.addRenderableWidget(imagebutton_pixilframe0_20240311t16584);
+
 	}
+
 }

@@ -467,37 +467,6 @@
       }
     },
     {
-      "name": "IceCreamScoopOnBoneMealSuccess",
-      "type": "procedure",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_scoop_on_bone_meal_success",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopOnBoneMealSuccessProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "IceCreamConeToIceCreamScoop",
       "type": "recipe",
       "sortid": 38,
@@ -540,72 +509,6 @@
       }
     },
     {
-      "name": "IceCreamScoopBlockIsPlacedBy",
-      "type": "procedure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_scoop_block_is_placed_by",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopBlockIsPlacedByProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "IceCreamScoopUpdateTick",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_scoop_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamScoopUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Demise",
       "type": "tool",
       "sortid": 14,
@@ -629,37 +532,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forge/tags/items/scythe.json"
-        ]
-      }
-    },
-    {
-      "name": "IceCreamConePlantPlantRightClicked",
-      "type": "procedure",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_cream_cone_plant_plant_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/IceCreamConePlantPlantRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
         ]
       }
     },
@@ -763,6 +635,41 @@
       }
     },
     {
+      "name": "PlayerItemRemove",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_item_remove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/PlayerItemRemoveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "ActivateTrial",
       "type": "procedure",
       "sortid": 48,
@@ -798,6 +705,43 @@
       }
     },
     {
+      "name": "ArcaneHuskEntityIsHurt",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_husk_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/ArcaneHuskEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArcaneStarParticle",
+      "type": "particle",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_star_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/arcane_star_particle.json",
+          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/ArcaneStarParticleParticle.java"
+        ]
+      }
+    },
+    {
       "name": "EnchantmentArchitectUpdateTick",
       "type": "procedure",
       "sortid": 49,
@@ -825,20 +769,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      }
-    },
-    {
-      "name": "ArcaneStarParticle",
-      "type": "particle",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcane_star_particle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/arcane_star_particle.json",
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/ArcaneStarParticleParticle.java"
         ]
       }
     },
@@ -891,64 +821,6 @@
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/arcane_husk_biome_modifier.json"
         ]
       }
-    },
-    {
-      "name": "ArcaneHuskEntityIsHurt",
-      "type": "procedure",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcane_husk_entity_is_hurt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/ArcaneHuskEntityIsHurtProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PlayerItemRemove",
-      "type": "procedure",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "player_item_remove",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/newridiculousmodforthehahas/procedures/PlayerItemRemoveProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -992,7 +864,6 @@
       "block.new_ridiculous_mod_for_the_hahas.glue_plant": "Glue bottle",
       "item.new_ridiculous_mod_for_the_hahas.pulsating_heart": "Pulsating Heart",
       "item.new_ridiculous_mod_for_the_hahas.iron_scythe": "Iron Scythe",
-      "entity.new_ridiculous_mod_for_the_hahas.arcane_husk": "Arcane Husk",
       "item.new_ridiculous_mod_for_the_hahas.glue": "Glue"
     }
   },
