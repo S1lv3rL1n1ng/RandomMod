@@ -57,11 +57,30 @@ public class ActivateTrialProcedure {
 				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("new_ridiculous_mod_for_the_hahas:vorpal_tremor")), SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
-		if (world instanceof ServerLevel _level) {
-			Entity entityToSpawn = NewRidiculousModForTheHahasModEntities.ARCANE_HUSK.get().spawn(_level,
-					BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), y + Mth.nextInt(RandomSource.create(), 1, 4), z + Mth.nextInt(RandomSource.create(), -4, 4)), MobSpawnType.MOB_SUMMONED);
-			if (entityToSpawn != null) {
-				entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+		if ((new Object() {
+			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
+				BlockEntity blockEntity = world.getBlockEntity(pos);
+				if (blockEntity != null)
+					return blockEntity.getPersistentData().getBoolean(tag);
+				return false;
+			}
+		}.getValue(world, BlockPos.containing(x, y, z), "safe")) == false) {
+			for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 1, 10); index0++) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = NewRidiculousModForTheHahasModEntities.ARCANE_HUSK.get().spawn(_level,
+							BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), y + Mth.nextInt(RandomSource.create(), 1, 4), z + Mth.nextInt(RandomSource.create(), -4, 4)), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
+				}
+			}
+		} else {
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = NewRidiculousModForTheHahasModEntities.ARCANE_HUSK.get().spawn(_level,
+						BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), y + Mth.nextInt(RandomSource.create(), 1, 4), z + Mth.nextInt(RandomSource.create(), -4, 4)), MobSpawnType.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				}
 			}
 		}
 		item.getOrCreateTag().putBoolean("trial", true);
