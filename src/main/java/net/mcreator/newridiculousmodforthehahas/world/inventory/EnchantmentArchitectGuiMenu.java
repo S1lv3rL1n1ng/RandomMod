@@ -4,6 +4,9 @@ package net.mcreator.newridiculousmodforthehahas.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -19,6 +22,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.newridiculousmodforthehahas.procedures.EnchantmentArchitectGuiWhileThisGUIIsOpenTickProcedure;
 import net.mcreator.newridiculousmodforthehahas.procedures.EnchantmentArchitectGuiThisGUIIsOpenedProcedure;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModMenus;
 
@@ -26,6 +30,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class EnchantmentArchitectGuiMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -78,19 +83,19 @@ public class EnchantmentArchitectGuiMenu extends AbstractContainerMenu implement
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 40, 23) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 83, 24) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 78, -16) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 45, 24) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 78, 23) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 121, 24) {
 			private final int slot = 2;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 116, 23) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 83, 63) {
 			private final int slot = 3;
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 78, 62) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 83, -15) {
 			private final int slot = 4;
 		}));
 		for (int si = 0; si < 3; ++si)
@@ -98,7 +103,7 @@ public class EnchantmentArchitectGuiMenu extends AbstractContainerMenu implement
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -2 + 8 + sj * 18, 24 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, -2 + 8 + si * 18, 24 + 142));
-		EnchantmentArchitectGuiThisGUIIsOpenedProcedure.execute(world, x, y, z, entity);
+		EnchantmentArchitectGuiThisGUIIsOpenedProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -240,5 +245,17 @@ public class EnchantmentArchitectGuiMenu extends AbstractContainerMenu implement
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof EnchantmentArchitectGuiMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			EnchantmentArchitectGuiWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z, entity);
+		}
 	}
 }

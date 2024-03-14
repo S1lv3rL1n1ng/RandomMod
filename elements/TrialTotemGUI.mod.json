@@ -1,0 +1,65 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 172,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 166,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_pixilframe0_20240311t16584",
+          "image": "pixil-frame-0_-_2024-03-11t165841.603.png",
+          "hoveredImage": "pixil-frame-0_-_2024-03-11t172029.838.png",
+          "onClick": {
+            "name": "ActivateTrial"
+          },
+          "x": 205,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iris.png",
+          "use1Xscale": false,
+          "x": 125,
+          "y": 32
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 110
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "TrialTotemGUIThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 16,
+      "oy": 16,
+      "snapOnGrid": false
+    }
+  }
+}

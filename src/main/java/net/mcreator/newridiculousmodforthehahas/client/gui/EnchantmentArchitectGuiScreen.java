@@ -50,9 +50,9 @@ public class EnchantmentArchitectGuiScreen extends AbstractContainerScreen<Encha
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/gui.png"), this.leftPos + 23, this.topPos + -33, 0, 0, 128, 128, 128, 128);
+		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/gui.png"), this.leftPos + 28, this.topPos + -32, 0, 0, 128, 128, 128, 128);
 
-		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/aefaa.png"), this.leftPos + -10, this.topPos + 22, 0, 0, 210, 170, 210, 170);
+		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/aefaa.png"), this.leftPos + -9, this.topPos + 23, 0, 0, 210, 170, 210, 170);
 
 		RenderSystem.disableBlend();
 	}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:white_wool"
+    },
+    "c": {
+      "item": "minecraft:bookshelf"
+    },
+    "d": {
+      "item": "new_ridiculous_mod_for_the_hahas:ancient_architect_core"
+    },
+    "e": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "new_ridiculous_mod_for_the_hahas:enchantment_architect",
+    "count": 1
+  }
+}

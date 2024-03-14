@@ -28,6 +28,7 @@ import net.mcreator.newridiculousmodforthehahas.item.DiamondScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondDimensionItem;
 import net.mcreator.newridiculousmodforthehahas.item.DemiseItem;
 import net.mcreator.newridiculousmodforthehahas.item.ConeItem;
+import net.mcreator.newridiculousmodforthehahas.item.AncientArchitectCoreItem;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
 public class NewRidiculousModForTheHahasModItems {
@@ -53,6 +54,8 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> ICE_CREAM_CONE_PLANT = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_CONE_PLANT);
 	public static final RegistryObject<Item> ICE_CREAM_SCOOP = block(NewRidiculousModForTheHahasModBlocks.ICE_CREAM_SCOOP);
 	public static final RegistryObject<Item> DIAMOND_DIMENSION = REGISTRY.register("diamond_dimension", () -> new DiamondDimensionItem());
+	public static final RegistryObject<Item> TRIAL_TOTEM = block(NewRidiculousModForTheHahasModBlocks.TRIAL_TOTEM);
+	public static final RegistryObject<Item> ANCIENT_ARCHITECT_CORE = REGISTRY.register("ancient_architect_core", () -> new AncientArchitectCoreItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

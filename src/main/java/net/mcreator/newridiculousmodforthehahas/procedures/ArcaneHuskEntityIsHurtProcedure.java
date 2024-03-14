@@ -36,5 +36,12 @@ public class ArcaneHuskEntityIsHurtProcedure {
 				}
 			}
 		}
+		if (sourceentity instanceof ArcaneHuskEntity) {
+			if (sourceentity.getPersistentData().getBoolean("safe") == true) {
+				if (event != null && event.isCancelable()) {
+					event.setCanceled(true);
+				}
+			}
+		}
 	}
 }

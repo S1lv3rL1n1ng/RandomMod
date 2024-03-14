@@ -1,0 +1,9 @@
+{
+  "parent": "new_ridiculous_mod_for_the_hahas:custom/trialtotem",
+  "textures": {
+    "all": "new_ridiculous_mod_for_the_hahas:block/z4",
+    "particle": "new_ridiculous_mod_for_the_hahas:block/z4",
+    "0": "new_ridiculous_mod_for_the_hahas:block/z4"
+  },
+  "render_type": "solid"
+}

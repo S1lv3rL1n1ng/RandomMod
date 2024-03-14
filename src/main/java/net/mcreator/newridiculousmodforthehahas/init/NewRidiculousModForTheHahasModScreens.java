@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.newridiculousmodforthehahas.client.gui.TrialTotemGUIScreen;
 import net.mcreator.newridiculousmodforthehahas.client.gui.EnchantmentArchitectGuiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class NewRidiculousModForTheHahasModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(NewRidiculousModForTheHahasModMenus.ENCHANTMENT_ARCHITECT_GUI.get(), EnchantmentArchitectGuiScreen::new);
+			MenuScreens.register(NewRidiculousModForTheHahasModMenus.TRIAL_TOTEM_GUI.get(), TrialTotemGUIScreen::new);
 		});
 	}
 }

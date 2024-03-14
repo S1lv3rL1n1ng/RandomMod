@@ -40,6 +40,8 @@ public class NewRidiculousModForTheHahasModTabs {
 				tabData.accept(NewRidiculousModForTheHahasModItems.PULSATING_HEART.get());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK.get().asItem());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.ENCHANTMENT_ARCHITECT.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModBlocks.TRIAL_TOTEM.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModItems.ANCIENT_ARCHITECT_CORE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

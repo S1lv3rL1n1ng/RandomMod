@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "new_ridiculous_mod_for_the_hahas:block/trial_totem"
+    },
+    "facing=east": {
+      "model": "new_ridiculous_mod_for_the_hahas:block/trial_totem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "new_ridiculous_mod_for_the_hahas:block/trial_totem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "new_ridiculous_mod_for_the_hahas:block/trial_totem",
+      "y": 270
+    }
+  }
+}

@@ -8,15 +8,17 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModParticleTypes;
+import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModBlocks;
 
 public class ArcaneHuskOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		boolean found = false;
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
+		boolean found = false;
+		boolean safe = false;
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles((SimpleParticleType) (NewRidiculousModForTheHahasModParticleTypes.ARCANE_STAR_PARTICLE.get()), x, y, z, 5, 0.5, 0.5, 0.5, 0);
 		sx = -12;
@@ -35,12 +37,20 @@ public class ArcaneHuskOnEntityTickUpdateProcedure {
 						}
 					}.getValue(world, BlockPos.containing(x + sx, y + sy, z + sz), "trial")) == true) {
 						found = true;
+						if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == NewRidiculousModForTheHahasModBlocks.ENCHANTMENT_ARCHITECT.get()) {
+							safe = true;
+						}
 					}
 					sz = sz + 1;
 				}
 				sy = sy + 1;
 			}
 			sx = sx + 1;
+		}
+		if (safe == true) {
+			entity.getPersistentData().putBoolean("safe", true);
+		} else {
+			entity.getPersistentData().putBoolean("safe", false);
 		}
 		if (found == false) {
 			if (!entity.level().isClientSide())
