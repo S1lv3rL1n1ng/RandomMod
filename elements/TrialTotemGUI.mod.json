@@ -19,17 +19,17 @@
           "onClick": {
             "name": "ActivateTrial"
           },
-          "x": 205,
-          "y": 161
+          "x": 204,
+          "y": 98
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "iris.png",
+          "image": "pixil-frame-0_-_2024-03-14t121517.784_1.png",
           "use1Xscale": false,
-          "x": 125,
-          "y": 32
+          "x": 129,
+          "y": 19
         }
       },
       {
@@ -39,15 +39,15 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "id": 0,
           "disablePickup": {
-            "fixedValue": true
+            "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 204,
-          "y": 110
+          "x": 205,
+          "y": 142
         }
       }
     ],

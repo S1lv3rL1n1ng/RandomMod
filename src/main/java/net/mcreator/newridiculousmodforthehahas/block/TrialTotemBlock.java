@@ -79,10 +79,10 @@ public class TrialTotemBlock extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(3, 0, 4, 13, 12, 12), box(4, 12, 5, 12, 20, 11), box(7, 11, 3, 9, 16, 5), box(3, 6, 1, 13, 10, 4));
-			case NORTH -> Shapes.or(box(3, 0, 4, 13, 12, 12), box(4, 12, 5, 12, 20, 11), box(7, 11, 11, 9, 16, 13), box(3, 6, 12, 13, 10, 15));
-			case EAST -> Shapes.or(box(4, 0, 3, 12, 12, 13), box(5, 12, 4, 11, 20, 12), box(3, 11, 7, 5, 16, 9), box(1, 6, 3, 4, 10, 13));
-			case WEST -> Shapes.or(box(4, 0, 3, 12, 12, 13), box(5, 12, 4, 11, 20, 12), box(11, 11, 7, 13, 16, 9), box(12, 6, 3, 15, 10, 13));
+			default -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 4, 0, 16, 6, 16), box(5, 6, 7, 11, 17, 9), box(3, 17, 7, 13, 19, 9), box(7, 19, 7, 9, 25, 9), box(6, 25, 7, 10, 27, 9), box(2, 2, 2, 14, 4, 14));
+			case NORTH -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 4, 0, 16, 6, 16), box(5, 6, 7, 11, 17, 9), box(3, 17, 7, 13, 19, 9), box(7, 19, 7, 9, 25, 9), box(6, 25, 7, 10, 27, 9), box(2, 2, 2, 14, 4, 14));
+			case EAST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 4, 0, 16, 6, 16), box(7, 6, 5, 9, 17, 11), box(7, 17, 3, 9, 19, 13), box(7, 19, 7, 9, 25, 9), box(7, 25, 6, 9, 27, 10), box(2, 2, 2, 14, 4, 14));
+			case WEST -> Shapes.or(box(0, 0, 0, 16, 2, 16), box(0, 4, 0, 16, 6, 16), box(7, 6, 5, 9, 17, 11), box(7, 17, 3, 9, 19, 13), box(7, 19, 7, 9, 25, 9), box(7, 25, 6, 9, 27, 10), box(2, 2, 2, 14, 4, 14));
 		};
 	}
 

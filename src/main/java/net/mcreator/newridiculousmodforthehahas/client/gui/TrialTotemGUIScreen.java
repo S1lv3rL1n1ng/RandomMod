@@ -48,7 +48,7 @@ public class TrialTotemGUIScreen extends AbstractContainerScreen<TrialTotemGUIMe
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/iris.png"), this.leftPos + -3, this.topPos + -5, 0, 0, 180, 180, 180, 180);
+		guiGraphics.blit(new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/pixil-frame-0_-_2024-03-14t121517.784_1.png"), this.leftPos + 1, this.topPos + -18, 0, 0, 180, 180, 180, 180);
 
 		RenderSystem.disableBlend();
 	}
@@ -79,7 +79,7 @@ public class TrialTotemGUIScreen extends AbstractContainerScreen<TrialTotemGUIMe
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_pixilframe0_20240311t16584 = new ImageButton(this.leftPos + 77, this.topPos + 124, 19, 18, 0, 0, 18, new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/atlas/imagebutton_pixilframe0_20240311t16584.png"), 19,
+		imagebutton_pixilframe0_20240311t16584 = new ImageButton(this.leftPos + 76, this.topPos + 61, 19, 18, 0, 0, 18, new ResourceLocation("new_ridiculous_mod_for_the_hahas:textures/screens/atlas/imagebutton_pixilframe0_20240311t16584.png"), 19,
 				36, e -> {
 					if (true) {
 						NewRidiculousModForTheHahasMod.PACKET_HANDLER.sendToServer(new TrialTotemGUIButtonMessage(0, x, y, z));

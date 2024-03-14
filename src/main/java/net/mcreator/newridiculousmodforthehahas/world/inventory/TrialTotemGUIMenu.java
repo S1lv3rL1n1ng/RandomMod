@@ -78,18 +78,8 @@ public class TrialTotemGUIMenu extends AbstractContainerMenu implements Supplier
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 77, 74) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 78, 106) {
 			private final int slot = 0;
-
-			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
-			}
-
-			@Override
-			public boolean mayPlace(ItemStack itemstack) {
-				return false;
-			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
