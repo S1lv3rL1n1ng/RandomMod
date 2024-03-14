@@ -39,11 +39,11 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "id": 0,
           "disablePickup": {
-            "fixedValue": false
+            "fixedValue": true
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
