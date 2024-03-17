@@ -12,7 +12,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GIANTSTICKItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/giantstick.json"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "Kjldfhg",
@@ -25,7 +26,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/kjldfhg.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "DiamondNetheriteLand",
@@ -38,7 +40,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/biome/diamond_netherite_land.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "PetRock",
@@ -52,7 +55,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pet_rock.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PetRockItem.java"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "GluePlant",
@@ -68,7 +72,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue_plant.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/glue_plant.json"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "GooglyEyes",
@@ -82,7 +87,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GooglyEyesItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/googly_eyes_helmet.json"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "Dsgghsgsykfdk",
@@ -95,7 +101,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/dsgghsgsykfdk.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "DiamondPlace",
@@ -108,7 +115,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/worldgen/biome/diamond_place.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "DiamondDimension",
@@ -131,7 +139,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ns.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/diamond_dimension_portal_ew.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "Hkgfklhsgfgsl",
@@ -144,7 +153,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/hkgfklhsgfgsl.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "Ldhsgfhgsdfjlghsfjkgsdf",
@@ -157,7 +167,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/ldhsgfhgsdfjlghsfjkgsdf.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "Cone",
@@ -171,7 +182,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/cone.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/ConeItem.java"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "IceCreamCone",
@@ -185,7 +197,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/IceCreamConeItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_cone.json"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "IceCreamConePlant",
@@ -201,7 +214,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/ice_cream_cone_plant.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/IceCreamConePlantBlock.java"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "Glue",
@@ -215,7 +229,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/glue.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GlueItem.java"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "M4Projectile",
@@ -228,7 +243,8 @@
         "files": [
           "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/M4ProjectileEntity.java"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "M4",
@@ -242,7 +258,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/m_4.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/M4Item.java"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "RandomGoodies",
@@ -253,7 +270,8 @@
       "registry_name": "random_goodies",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/AdditionalStuff"
     },
     {
       "name": "DiamondScytheRecipe",
@@ -266,7 +284,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/diamond_scythe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Recipes"
     },
     {
       "name": "GoldScytheRecipe",
@@ -279,7 +298,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/gold_scythe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Recipes"
     },
     {
       "name": "PulsatingHeart",
@@ -293,7 +313,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/pulsating_heart.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/PulsatingHeartItem.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "NetheriteScytheRecipe",
@@ -306,7 +327,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/netherite_scythe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Recipes"
     },
     {
       "name": "DemiseScytheRecipe",
@@ -319,7 +341,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/demise_scythe_recipe.json"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Additional"
     },
     {
       "name": "GoldScythe",
@@ -333,7 +356,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/GoldScytheItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/gold_scythe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Items"
     },
     {
       "name": "WoodenScythe",
@@ -347,7 +371,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/wooden_scythe.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/WoodenScytheItem.java"
         ]
-      }
+      },
+      "path": "~/Tools/Items"
     },
     {
       "name": "WoodenScytheRecipes",
@@ -360,7 +385,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/wooden_scythe_recipes.json"
         ]
-      }
+      },
+      "path": "~/Tools/Recipes"
     },
     {
       "name": "StoneScytheRecipe",
@@ -373,7 +399,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/stone_scythe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Recipes"
     },
     {
       "name": "StoneScythe",
@@ -387,7 +414,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/StoneScytheItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/stone_scythe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Items"
     },
     {
       "name": "IronScythe",
@@ -401,7 +429,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/IronScytheItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/iron_scythe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Items"
     },
     {
       "name": "FleshBlock",
@@ -417,7 +446,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/flesh_block.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/flesh_block.json"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "NetheriteScythe",
@@ -431,7 +461,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/netherite_scythe.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/NetheriteScytheItem.java"
         ]
-      }
+      },
+      "path": "~/Tools/Items"
     },
     {
       "name": "IronScytheRecipe",
@@ -444,7 +475,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/iron_scythe_recipe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Recipes"
     },
     {
       "name": "DiamondScythe",
@@ -458,7 +490,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/diamond_scythe.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DiamondScytheItem.java"
         ]
-      }
+      },
+      "path": "~/Tools/Items"
     },
     {
       "name": "IceCreamConeToIceCreamScoop",
@@ -471,7 +504,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/ice_cream_cone_to_ice_cream_scoop.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "YouScreamWeScream",
@@ -484,7 +518,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/advancements/you_scream_we_scream.json"
         ]
-      }
+      },
+      "path": "~/Silly/Additional"
     },
     {
       "name": "IceCreamScoop",
@@ -500,7 +535,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/ice_cream_scoop.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ice_cream_scoop.json"
         ]
-      }
+      },
+      "path": "~/Silly/Assets"
     },
     {
       "name": "Demise",
@@ -514,7 +550,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/DemiseItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/demise.json"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "Scythe",
@@ -527,7 +564,8 @@
         "files": [
           "src/main/resources/data/forge/tags/items/scythe.json"
         ]
-      }
+      },
+      "path": "~/Tools/Additional"
     },
     {
       "name": "WitheringEdge",
@@ -540,7 +578,8 @@
         "files": [
           "src/main/java/net/mcreator/newridiculousmodforthehahas/enchantment/WitheringEdgeEnchantment.java"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Additional"
     },
     {
       "name": "HitDetection",
@@ -583,7 +622,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/AdditionalStuff"
     },
     {
       "name": "EnchantmentArchitect",
@@ -600,7 +640,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/entity/EnchantmentArchitectBlockEntity.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/EnchantmentArchitectBlock.java"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "EnchantmentArchitectGui",
@@ -615,7 +656,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/network/EnchantmentArchitectGuiButtonMessage.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/gui/EnchantmentArchitectGuiScreen.java"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Additional"
     },
     {
       "name": "EnchantmentArchitectOnBlockRightClicked",
@@ -646,7 +688,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "PlayerItemRemove",
@@ -681,7 +724,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "ActivateTrial",
@@ -716,7 +760,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "ArcaneHuskEntityIsHurt",
@@ -739,7 +784,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "ArcaneStarParticle",
@@ -753,7 +799,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/arcane_star_particle.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/ArcaneStarParticleParticle.java"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "EnchantmentArchitectUpdateTick",
@@ -784,7 +831,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "ArcaneHuskOnEntityTickUpdate",
@@ -819,7 +867,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "ArcaneHusk",
@@ -834,7 +883,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/ArcaneHuskEntity.java",
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/arcane_husk_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "EnchantmentArchitectGuiThisGUIIsOpened",
@@ -865,7 +915,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "EnchantmentArchitectGuiWhileThisGUIIsOpenTick",
@@ -900,7 +951,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "TrialTotem",
@@ -917,7 +969,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/block/TrialTotemBlock.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/trial_totem.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "TrialTotemGUI",
@@ -932,7 +985,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/gui/TrialTotemGUIScreen.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/network/TrialTotemGUIButtonMessage.java"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Additional"
     },
     {
       "name": "AncientArchitectCore",
@@ -946,7 +1000,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/item/AncientArchitectCoreItem.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/ancient_architect_core.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "EnchantmentArchitectRecipe",
@@ -959,7 +1014,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/recipes/enchantment_architect_recipe.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Additional"
     },
     {
       "name": "TrialTotemLoot",
@@ -972,7 +1028,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/loot_tables/chests/trial_totem_loot.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Additional"
     },
     {
       "name": "TrialTotemGUIThisGUIIsOpened",
@@ -1007,7 +1064,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Procedures"
     },
     {
       "name": "TrialWeapons",
@@ -1020,7 +1078,8 @@
         "files": [
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/loot_tables/chests/trial_weapons.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Additional"
     },
     {
       "name": "CognizantSkull",
@@ -1034,7 +1093,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/CognizantSkullEntity.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/renderer/CognizantSkullRenderer.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "CognizantSkullOnEntityTickUpdate",
@@ -1069,7 +1129,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "FleshySpike",
@@ -1085,7 +1146,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/block/fleshy_spike.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/fleshy_spike.json"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "FleshySpikeEntityCollidesInTheBlock",
@@ -1108,7 +1170,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "SkullBoi",
@@ -1123,7 +1186,8 @@
           "src/main/resources/data/new_ridiculous_mod_for_the_hahas/forge/biome_modifier/skull_boi_biome_modifier.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/renderer/SkullBoiRenderer.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "HeartWrench",
@@ -1137,7 +1201,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/renderer/HeartWrenchRenderer.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/HeartWrenchEntity.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "CognizantSkullEntityDies",
@@ -1172,7 +1237,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "Bloodshot",
@@ -1186,7 +1252,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/renderer/BloodshotRenderer.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/BloodshotEntity.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "TestshotOnKeyPressed",
@@ -1205,7 +1272,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/AdditionalStuff"
     },
     {
       "name": "BloodBubble",
@@ -1219,7 +1287,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/blood_bubble.json",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/BloodBubbleParticle.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "ConstellationVariant1",
@@ -1233,7 +1302,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/ConstellationVariant1Particle.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/constellation_variant_1.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "ConstellationVariant2",
@@ -1247,7 +1317,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/particle/ConstellationVariant2Particle.java",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/particles/constellation_variant_2.json"
         ]
-      }
+      },
+      "path": "~/ArcaneInterference/Assets"
     },
     {
       "name": "HeartWrenchOnEntityTickUpdate",
@@ -1282,7 +1353,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "BloodshotWhileProjectileFlyingTick",
@@ -1313,7 +1385,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "Bleeding",
@@ -1326,7 +1399,8 @@
         "files": [
           "src/main/java/net/mcreator/newridiculousmodforthehahas/potion/BleedingMobEffect.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "CancelRegen",
@@ -1345,7 +1419,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "BloodshotProjectileHitsLivingEntity",
@@ -1364,7 +1439,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "DemiseSwing",
@@ -1399,7 +1475,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "DamageHitbox",
@@ -1413,7 +1490,8 @@
           "src/main/java/net/mcreator/newridiculousmodforthehahas/client/renderer/DamageHitboxRenderer.java",
           "src/main/java/net/mcreator/newridiculousmodforthehahas/entity/DamageHitboxEntity.java"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "DamageHitboxOnEntityTickUpdate",
@@ -1448,7 +1526,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "DemiseLivingEntityIsHitWithTool",
@@ -1467,7 +1546,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     },
     {
       "name": "SuspiciousSkull",
@@ -1483,7 +1563,8 @@
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/blockstates/suspicious_skull.json",
           "src/main/resources/assets/new_ridiculous_mod_for_the_hahas/models/item/suspicious_skull.json"
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Assets"
     },
     {
       "name": "CognizantSkullOnInitialEntitySpawn",
@@ -1514,7 +1595,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BlasphemousFlesh/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1620,7 +1702,76 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BlasphemousFlesh",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Assets",
+            "children": []
+          },
+          {
+            "name": "Additional",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Additional",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ArcaneInterference",
+        "children": [
+          {
+            "name": "Assets",
+            "children": []
+          },
+          {
+            "name": "Additional",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Silly",
+        "children": [
+          {
+            "name": "Additional",
+            "children": []
+          },
+          {
+            "name": "Assets",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "AdditionalStuff",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "new_ridiculous_mod_for_the_hahas",
