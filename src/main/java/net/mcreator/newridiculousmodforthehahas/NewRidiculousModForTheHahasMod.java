@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModTabs;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModSounds;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModParticleTypes;
+import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModMobEffects;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModMenus;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModItems;
 import net.mcreator.newridiculousmodforthehahas.init.NewRidiculousModForTheHahasModEntities;
@@ -63,6 +64,8 @@ public class NewRidiculousModForTheHahasMod {
 		NewRidiculousModForTheHahasModEntities.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModEnchantments.REGISTRY.register(bus);
 		NewRidiculousModForTheHahasModTabs.REGISTRY.register(bus);
+
+		NewRidiculousModForTheHahasModMobEffects.REGISTRY.register(bus);
 
 		NewRidiculousModForTheHahasModParticleTypes.REGISTRY.register(bus);
 

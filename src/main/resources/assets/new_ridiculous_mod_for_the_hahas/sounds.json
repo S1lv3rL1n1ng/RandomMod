@@ -7,5 +7,48 @@
         "stream": false
       }
     ]
+  },
+  "trial_begin": {
+    "subtitle": "subtitles.trial_begin",
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:trialbegin",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat": {
+    "subtitle": "subtitles.heartbeat",
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:heartbeat-6396",
+        "stream": false
+      }
+    ]
+  },
+  "silence": {
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:short_silent_empty_audio",
+        "stream": false
+      }
+    ]
+  },
+  "rapture": {
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:vivi-rapture",
+        "stream": true
+      }
+    ]
+  },
+  "slash": {
+    "subtitle": "subtitles.slash",
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:sword-slash-and-swing-185432",
+        "stream": false
+      }
+    ]
   }
 }

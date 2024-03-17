@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151254.465",
+    "up": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151317.400",
+    "north": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151216.780",
+    "east": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151203.724",
+    "south": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151242.444",
+    "west": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151232.098",
+    "particle": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-17t151254.465"
+  },
+  "render_type": "solid"
+}

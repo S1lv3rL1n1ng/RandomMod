@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "new_ridiculous_mod_for_the_hahas:skull_boi",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.newridiculousmodforthehahas.block.TrialTotemBlock;
+import net.mcreator.newridiculousmodforthehahas.block.SuspiciousSkullBlock;
 import net.mcreator.newridiculousmodforthehahas.block.IceCreamScoopBlock;
 import net.mcreator.newridiculousmodforthehahas.block.IceCreamConePlantBlock;
 import net.mcreator.newridiculousmodforthehahas.block.GluePlantBlock;
+import net.mcreator.newridiculousmodforthehahas.block.FleshySpikeBlock;
 import net.mcreator.newridiculousmodforthehahas.block.FleshBlockBlock;
 import net.mcreator.newridiculousmodforthehahas.block.EnchantmentArchitectBlock;
 import net.mcreator.newridiculousmodforthehahas.block.DiamondDimensionPortalBlock;
@@ -28,4 +30,6 @@ public class NewRidiculousModForTheHahasModBlocks {
 	public static final RegistryObject<Block> ICE_CREAM_SCOOP = REGISTRY.register("ice_cream_scoop", () -> new IceCreamScoopBlock());
 	public static final RegistryObject<Block> DIAMOND_DIMENSION_PORTAL = REGISTRY.register("diamond_dimension_portal", () -> new DiamondDimensionPortalBlock());
 	public static final RegistryObject<Block> TRIAL_TOTEM = REGISTRY.register("trial_totem", () -> new TrialTotemBlock());
+	public static final RegistryObject<Block> FLESHY_SPIKE = REGISTRY.register("fleshy_spike", () -> new FleshySpikeBlock());
+	public static final RegistryObject<Block> SUSPICIOUS_SKULL = REGISTRY.register("suspicious_skull", () -> new SuspiciousSkullBlock());
 }

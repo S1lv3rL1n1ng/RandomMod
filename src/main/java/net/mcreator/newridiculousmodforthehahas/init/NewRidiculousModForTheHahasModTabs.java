@@ -42,6 +42,8 @@ public class NewRidiculousModForTheHahasModTabs {
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.ENCHANTMENT_ARCHITECT.get().asItem());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.TRIAL_TOTEM.get().asItem());
 				tabData.accept(NewRidiculousModForTheHahasModItems.ANCIENT_ARCHITECT_CORE.get());
+				tabData.accept(NewRidiculousModForTheHahasModBlocks.FLESHY_SPIKE.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModBlocks.SUSPICIOUS_SKULL.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

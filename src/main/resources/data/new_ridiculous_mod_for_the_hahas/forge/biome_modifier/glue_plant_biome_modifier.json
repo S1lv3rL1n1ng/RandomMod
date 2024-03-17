@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_overworld",
-  "features": "new_ridiculous_mod_for_the_hahas:glue_plant",
-  "step": "vegetal_decoration"
-}

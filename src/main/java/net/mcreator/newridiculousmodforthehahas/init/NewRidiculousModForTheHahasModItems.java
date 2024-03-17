@@ -56,6 +56,8 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> DIAMOND_DIMENSION = REGISTRY.register("diamond_dimension", () -> new DiamondDimensionItem());
 	public static final RegistryObject<Item> TRIAL_TOTEM = block(NewRidiculousModForTheHahasModBlocks.TRIAL_TOTEM);
 	public static final RegistryObject<Item> ANCIENT_ARCHITECT_CORE = REGISTRY.register("ancient_architect_core", () -> new AncientArchitectCoreItem());
+	public static final RegistryObject<Item> FLESHY_SPIKE = block(NewRidiculousModForTheHahasModBlocks.FLESHY_SPIKE);
+	public static final RegistryObject<Item> SUSPICIOUS_SKULL = block(NewRidiculousModForTheHahasModBlocks.SUSPICIOUS_SKULL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

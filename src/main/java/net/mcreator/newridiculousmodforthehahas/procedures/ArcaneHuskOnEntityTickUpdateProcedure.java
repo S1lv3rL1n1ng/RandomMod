@@ -20,7 +20,7 @@ public class ArcaneHuskOnEntityTickUpdateProcedure {
 		boolean found = false;
 		boolean safe = false;
 		if (world instanceof ServerLevel _level)
-			_level.sendParticles((SimpleParticleType) (NewRidiculousModForTheHahasModParticleTypes.ARCANE_STAR_PARTICLE.get()), x, y, z, 5, 0.5, 0.5, 0.5, 0);
+			_level.sendParticles((SimpleParticleType) (NewRidiculousModForTheHahasModParticleTypes.ARCANE_STAR_PARTICLE.get()), x, y, z, 2, 0.5, 0.5, 0.5, 0);
 		sx = -12;
 		found = false;
 		for (int index0 = 0; index0 < 24; index0++) {
