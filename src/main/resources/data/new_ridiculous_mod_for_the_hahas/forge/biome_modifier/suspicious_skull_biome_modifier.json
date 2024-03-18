@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "new_ridiculous_mod_for_the_hahas:blasphemous_flesh_biome",
+  "features": "new_ridiculous_mod_for_the_hahas:suspicious_skull",
+  "step": "underground_ores"
+}

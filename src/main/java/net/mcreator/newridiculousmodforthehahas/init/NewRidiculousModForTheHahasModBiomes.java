@@ -74,6 +74,35 @@ public class NewRidiculousModForTheHahasModBiomes {
 					}
 				}
 			}
+			if (dimensionType == dimensionTypeRegistry.getOrThrow(BuiltinDimensionTypes.NETHER)) {
+				ChunkGenerator chunkGenerator = levelStem.generator();
+				// Inject biomes to biome source
+				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
+					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("new_ridiculous_mod_for_the_hahas", "blasphemous_flesh_biome")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("new_ridiculous_mod_for_the_hahas", "blasphemous_flesh_biome")))));
+					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
+					chunkGenerator.featuresPerStep = Suppliers
+							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
+				}
+				// Inject surface rules
+				if (chunkGenerator instanceof NoiseBasedChunkGenerator noiseGenerator) {
+					NoiseGeneratorSettings noiseGeneratorSettings = noiseGenerator.settings.value();
+					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
+					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
+						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
+						surfaceRules.add(2,
+								anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("new_ridiculous_mod_for_the_hahas", "blasphemous_flesh_biome")), NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK.get().defaultBlockState(),
+										NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK.get().defaultBlockState(), NewRidiculousModForTheHahasModBlocks.FLESH_BLOCK.get().defaultBlockState()));
+						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
+								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
+								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
+						noiseGenerator.settings = new Holder.Direct<>(moddedNoiseGeneratorSettings);
+					}
+				}
+			}
 		}
 	}
 
@@ -84,5 +113,13 @@ public class NewRidiculousModForTheHahasModBiomes {
 								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
 										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
 								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
+	}
+
+	private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.sequence(
+						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+								SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+						SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock))));
 	}
 }

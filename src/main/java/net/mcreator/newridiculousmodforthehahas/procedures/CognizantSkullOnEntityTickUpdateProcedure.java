@@ -52,9 +52,9 @@ public class CognizantSkullOnEntityTickUpdateProcedure {
 				while ((world.getBlockState(BlockPos.containing(x + xpos, y + ypos, z + zpos))).getBlock() == Blocks.AIR) {
 					ypos = ypos - 1;
 				}
-				if (!((world.getBlockState(BlockPos.containing(x + xpos, y + ypos, z + zpos))).getBlock() == NewRidiculousModForTheHahasModBlocks.FLESHY_SPIKE.get())) {
+				if (!((world.getBlockState(BlockPos.containing(x + xpos, y + ypos, z + zpos))).getBlock() == NewRidiculousModForTheHahasModBlocks.BONE_SPIKE.get())) {
 					ypos = ypos + 1;
-					world.setBlock(BlockPos.containing(x + xpos, y + ypos, z + zpos), NewRidiculousModForTheHahasModBlocks.FLESHY_SPIKE.get().defaultBlockState(), 3);
+					world.setBlock(BlockPos.containing(x + xpos, y + ypos, z + zpos), NewRidiculousModForTheHahasModBlocks.BONE_SPIKE.get().defaultBlockState(), 3);
 				}
 			}
 		}
