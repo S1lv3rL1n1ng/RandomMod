@@ -19,4 +19,10 @@ authors="Owner, MCreator"
 
 
 
+[[dependencies.new_ridiculous_mod_for_the_hahas]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

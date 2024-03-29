@@ -21,4 +21,7 @@ public class NewRidiculousModForTheHahasModSounds {
 	public static final RegistryObject<SoundEvent> SILENCE = REGISTRY.register("silence", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("new_ridiculous_mod_for_the_hahas", "silence")));
 	public static final RegistryObject<SoundEvent> RAPTURE = REGISTRY.register("rapture", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("new_ridiculous_mod_for_the_hahas", "rapture")));
 	public static final RegistryObject<SoundEvent> SLASH = REGISTRY.register("slash", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("new_ridiculous_mod_for_the_hahas", "slash")));
+	public static final RegistryObject<SoundEvent> ANGELIO = REGISTRY.register("angelio", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("new_ridiculous_mod_for_the_hahas", "angelio")));
+	public static final RegistryObject<SoundEvent> GRAND_OBLIVION = REGISTRY.register("grand_oblivion", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("new_ridiculous_mod_for_the_hahas", "grand_oblivion")));
+	public static final RegistryObject<SoundEvent> VOID_WIND = REGISTRY.register("void_wind", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("new_ridiculous_mod_for_the_hahas", "void_wind")));
 }

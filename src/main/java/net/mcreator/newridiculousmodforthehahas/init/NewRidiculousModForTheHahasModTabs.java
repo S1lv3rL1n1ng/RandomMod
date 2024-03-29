@@ -44,6 +44,11 @@ public class NewRidiculousModForTheHahasModTabs {
 				tabData.accept(NewRidiculousModForTheHahasModItems.ANCIENT_ARCHITECT_CORE.get());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.SUSPICIOUS_SKULL.get().asItem());
 				tabData.accept(NewRidiculousModForTheHahasModBlocks.BONE_SPIKE.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModBlocks.BIG_CHAIN.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModBlocks.SHATTERED_NEOLITH.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModItems.ASTRAL_ALLOY.get());
+				tabData.accept(NewRidiculousModForTheHahasModBlocks.ASTRAL_BLOCK.get().asItem());
+				tabData.accept(NewRidiculousModForTheHahasModItems.VORTEX_BLADE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

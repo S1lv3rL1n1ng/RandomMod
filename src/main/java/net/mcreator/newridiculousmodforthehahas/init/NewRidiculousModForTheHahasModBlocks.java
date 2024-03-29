@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.newridiculousmodforthehahas.block.TrialTotemBlock;
 import net.mcreator.newridiculousmodforthehahas.block.SuspiciousSkullBlock;
 import net.mcreator.newridiculousmodforthehahas.block.SkullBlockBlock;
+import net.mcreator.newridiculousmodforthehahas.block.ShatteredNeolithBlock;
 import net.mcreator.newridiculousmodforthehahas.block.IceCreamScoopBlock;
 import net.mcreator.newridiculousmodforthehahas.block.IceCreamConePlantBlock;
 import net.mcreator.newridiculousmodforthehahas.block.GluePlantBlock;
@@ -20,6 +21,8 @@ import net.mcreator.newridiculousmodforthehahas.block.FleshBlockBlock;
 import net.mcreator.newridiculousmodforthehahas.block.EnchantmentArchitectBlock;
 import net.mcreator.newridiculousmodforthehahas.block.DiamondDimensionPortalBlock;
 import net.mcreator.newridiculousmodforthehahas.block.BoneSpikeBlock;
+import net.mcreator.newridiculousmodforthehahas.block.BigChainBlock;
+import net.mcreator.newridiculousmodforthehahas.block.AstralBlockBlock;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
 public class NewRidiculousModForTheHahasModBlocks {
@@ -34,4 +37,7 @@ public class NewRidiculousModForTheHahasModBlocks {
 	public static final RegistryObject<Block> SUSPICIOUS_SKULL = REGISTRY.register("suspicious_skull", () -> new SuspiciousSkullBlock());
 	public static final RegistryObject<Block> BONE_SPIKE = REGISTRY.register("bone_spike", () -> new BoneSpikeBlock());
 	public static final RegistryObject<Block> SKULL_BLOCK = REGISTRY.register("skull_block", () -> new SkullBlockBlock());
+	public static final RegistryObject<Block> BIG_CHAIN = REGISTRY.register("big_chain", () -> new BigChainBlock());
+	public static final RegistryObject<Block> SHATTERED_NEOLITH = REGISTRY.register("shattered_neolith", () -> new ShatteredNeolithBlock());
+	public static final RegistryObject<Block> ASTRAL_BLOCK = REGISTRY.register("astral_block", () -> new AstralBlockBlock());
 }

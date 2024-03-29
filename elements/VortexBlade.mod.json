@@ -1,0 +1,39 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "pixil-frame-0_-_2024-03-27t085253.082",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Vortex Blade",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:RandomGoodies"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 8124,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "VortexBladeRightclicked"
+    },
+    "onEntitySwing": {
+      "name": "VortexBladeEntitySwingsItem"
+    }
+  }
+}

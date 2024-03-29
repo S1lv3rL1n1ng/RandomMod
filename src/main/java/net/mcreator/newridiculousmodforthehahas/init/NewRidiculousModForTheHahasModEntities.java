@@ -16,10 +16,13 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.newridiculousmodforthehahas.entity.VortexSwordEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.SkullBoiEntity;
+import net.mcreator.newridiculousmodforthehahas.entity.PlayerSummonedVortexSwordEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.M4ProjectileEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.HeartWrenchEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.DamageHitboxEntity;
+import net.mcreator.newridiculousmodforthehahas.entity.ConstructOfOblivionEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.CognizantSkullEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.BloodshotEntity;
 import net.mcreator.newridiculousmodforthehahas.entity.ArcaneHuskEntity;
@@ -44,6 +47,15 @@ public class NewRidiculousModForTheHahasModEntities {
 			EntityType.Builder.<BloodshotEntity>of(BloodshotEntity::new, MobCategory.MISC).setCustomClientFactory(BloodshotEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<DamageHitboxEntity>> DAMAGE_HITBOX = register("damage_hitbox", EntityType.Builder.<DamageHitboxEntity>of(DamageHitboxEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DamageHitboxEntity::new).fireImmune().sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ConstructOfOblivionEntity>> CONSTRUCT_OF_OBLIVION = register("construct_of_oblivion",
+			EntityType.Builder.<ConstructOfOblivionEntity>of(ConstructOfOblivionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(512).setUpdateInterval(3).setCustomClientFactory(ConstructOfOblivionEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<VortexSwordEntity>> VORTEX_SWORD = register("vortex_sword", EntityType.Builder.<VortexSwordEntity>of(VortexSwordEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VortexSwordEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PlayerSummonedVortexSwordEntity>> PLAYER_SUMMONED_VORTEX_SWORD = register("player_summoned_vortex_sword",
+			EntityType.Builder.<PlayerSummonedVortexSwordEntity>of(PlayerSummonedVortexSwordEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(PlayerSummonedVortexSwordEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -57,6 +69,9 @@ public class NewRidiculousModForTheHahasModEntities {
 			SkullBoiEntity.init();
 			HeartWrenchEntity.init();
 			DamageHitboxEntity.init();
+			ConstructOfOblivionEntity.init();
+			VortexSwordEntity.init();
+			PlayerSummonedVortexSwordEntity.init();
 		});
 	}
 
@@ -67,5 +82,8 @@ public class NewRidiculousModForTheHahasModEntities {
 		event.put(SKULL_BOI.get(), SkullBoiEntity.createAttributes().build());
 		event.put(HEART_WRENCH.get(), HeartWrenchEntity.createAttributes().build());
 		event.put(DAMAGE_HITBOX.get(), DamageHitboxEntity.createAttributes().build());
+		event.put(CONSTRUCT_OF_OBLIVION.get(), ConstructOfOblivionEntity.createAttributes().build());
+		event.put(VORTEX_SWORD.get(), VortexSwordEntity.createAttributes().build());
+		event.put(PLAYER_SUMMONED_VORTEX_SWORD.get(), PlayerSummonedVortexSwordEntity.createAttributes().build());
 	}
 }

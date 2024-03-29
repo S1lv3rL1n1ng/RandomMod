@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-27t202717.507",
+    "particle": "new_ridiculous_mod_for_the_hahas:block/pixil-frame-0_-_2024-03-27t202717.507"
+  },
+  "render_type": "solid"
+}

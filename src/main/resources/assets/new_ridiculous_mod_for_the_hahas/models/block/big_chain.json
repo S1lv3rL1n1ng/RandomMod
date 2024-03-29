@@ -1,0 +1,9 @@
+{
+  "parent": "new_ridiculous_mod_for_the_hahas:custom/bigchain",
+  "textures": {
+    "all": "new_ridiculous_mod_for_the_hahas:block/chaintxt3",
+    "particle": "new_ridiculous_mod_for_the_hahas:block/chaintxt3",
+    "1": "new_ridiculous_mod_for_the_hahas:block/chaintxt3"
+  },
+  "render_type": "solid"
+}

@@ -19,4 +19,5 @@ public class NewRidiculousModForTheHahasModParticleTypes {
 	public static final RegistryObject<SimpleParticleType> BLOOD_BUBBLE = REGISTRY.register("blood_bubble", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> CONSTELLATION_VARIANT_1 = REGISTRY.register("constellation_variant_1", () -> new SimpleParticleType(false));
 	public static final RegistryObject<SimpleParticleType> CONSTELLATION_VARIANT_2 = REGISTRY.register("constellation_variant_2", () -> new SimpleParticleType(false));
+	public static final RegistryObject<SimpleParticleType> NEOLITHIC_DUST = REGISTRY.register("neolithic_dust", () -> new SimpleParticleType(false));
 }

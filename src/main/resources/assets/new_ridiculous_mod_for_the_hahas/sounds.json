@@ -50,5 +50,29 @@
         "stream": false
       }
     ]
+  },
+  "angelio": {
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:vivi-angelio",
+        "stream": true
+      }
+    ]
+  },
+  "grand_oblivion": {
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:vivi-grandoblivion",
+        "stream": true
+      }
+    ]
+  },
+  "void_wind": {
+    "sounds": [
+      {
+        "name": "new_ridiculous_mod_for_the_hahas:voidwind",
+        "stream": false
+      }
+    ]
   }
 }

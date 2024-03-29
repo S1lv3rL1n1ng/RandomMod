@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:diamond_block"
+    "minecraft:diamond_block",
+    "new_ridiculous_mod_for_the_hahas:shattered_neolith"
   ]
 }

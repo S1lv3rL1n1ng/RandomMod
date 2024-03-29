@@ -11,9 +11,12 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.newridiculousmodforthehahas.client.renderer.VortexSwordRenderer;
 import net.mcreator.newridiculousmodforthehahas.client.renderer.SkullBoiRenderer;
+import net.mcreator.newridiculousmodforthehahas.client.renderer.PlayerSummonedVortexSwordRenderer;
 import net.mcreator.newridiculousmodforthehahas.client.renderer.HeartWrenchRenderer;
 import net.mcreator.newridiculousmodforthehahas.client.renderer.DamageHitboxRenderer;
+import net.mcreator.newridiculousmodforthehahas.client.renderer.ConstructOfOblivionRenderer;
 import net.mcreator.newridiculousmodforthehahas.client.renderer.CognizantSkullRenderer;
 import net.mcreator.newridiculousmodforthehahas.client.renderer.BloodshotRenderer;
 import net.mcreator.newridiculousmodforthehahas.client.renderer.ArcaneHuskRenderer;
@@ -29,5 +32,8 @@ public class NewRidiculousModForTheHahasModEntityRenderers {
 		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.HEART_WRENCH.get(), HeartWrenchRenderer::new);
 		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.BLOODSHOT.get(), BloodshotRenderer::new);
 		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.DAMAGE_HITBOX.get(), DamageHitboxRenderer::new);
+		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.CONSTRUCT_OF_OBLIVION.get(), ConstructOfOblivionRenderer::new);
+		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.VORTEX_SWORD.get(), VortexSwordRenderer::new);
+		event.registerEntityRenderer(NewRidiculousModForTheHahasModEntities.PLAYER_SUMMONED_VORTEX_SWORD.get(), PlayerSummonedVortexSwordRenderer::new);
 	}
 }

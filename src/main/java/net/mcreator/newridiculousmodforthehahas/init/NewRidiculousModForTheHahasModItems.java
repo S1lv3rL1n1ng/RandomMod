@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.newridiculousmodforthehahas.item.WoodenScytheItem;
+import net.mcreator.newridiculousmodforthehahas.item.VortexBladeItem;
 import net.mcreator.newridiculousmodforthehahas.item.StoneScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.PulsatingHeartItem;
 import net.mcreator.newridiculousmodforthehahas.item.PetRockItem;
@@ -28,6 +29,7 @@ import net.mcreator.newridiculousmodforthehahas.item.DiamondScytheItem;
 import net.mcreator.newridiculousmodforthehahas.item.DiamondDimensionItem;
 import net.mcreator.newridiculousmodforthehahas.item.DemiseItem;
 import net.mcreator.newridiculousmodforthehahas.item.ConeItem;
+import net.mcreator.newridiculousmodforthehahas.item.AstralAlloyItem;
 import net.mcreator.newridiculousmodforthehahas.item.AncientArchitectCoreItem;
 import net.mcreator.newridiculousmodforthehahas.NewRidiculousModForTheHahasMod;
 
@@ -59,6 +61,11 @@ public class NewRidiculousModForTheHahasModItems {
 	public static final RegistryObject<Item> SUSPICIOUS_SKULL = block(NewRidiculousModForTheHahasModBlocks.SUSPICIOUS_SKULL);
 	public static final RegistryObject<Item> BONE_SPIKE = block(NewRidiculousModForTheHahasModBlocks.BONE_SPIKE);
 	public static final RegistryObject<Item> SKULL_BLOCK = block(NewRidiculousModForTheHahasModBlocks.SKULL_BLOCK);
+	public static final RegistryObject<Item> BIG_CHAIN = block(NewRidiculousModForTheHahasModBlocks.BIG_CHAIN);
+	public static final RegistryObject<Item> SHATTERED_NEOLITH = block(NewRidiculousModForTheHahasModBlocks.SHATTERED_NEOLITH);
+	public static final RegistryObject<Item> ASTRAL_ALLOY = REGISTRY.register("astral_alloy", () -> new AstralAlloyItem());
+	public static final RegistryObject<Item> ASTRAL_BLOCK = block(NewRidiculousModForTheHahasModBlocks.ASTRAL_BLOCK);
+	public static final RegistryObject<Item> VORTEX_BLADE = REGISTRY.register("vortex_blade", () -> new VortexBladeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
